@@ -1,0 +1,9 @@
+LTC1983ES6-5#TRMPBF,,,
+,,,
+Pin,Type,Name,Side
+1,pwr_in,VIN,left
+6,in,~SHDN,left
+3,passive,C+,left
+2,pwr_out,VOUT,right
+5,gnd,GND,right
+4,passive,C-,right

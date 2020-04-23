@@ -1,0 +1,62 @@
+name: '615008137421'
+description: CONN MOD JACK 8P8C R/A SHIELDED
+datasheet: http://katalog.we-online.de/em/datasheet/615008137421.pdf
+keywords: Connector, Female, RJ45
+
+pinout:
+    DATA:
+        DA+: 1
+        DA-: 2
+        DB+: 3
+        DC+: 4
+        DC-: 5 
+        DB-: 6
+        DD+: 7
+        DD-: 8
+    LED1:
+        LED1+: 9
+        LED1-: 10
+    LED2:
+        LED2+: 11
+        LED2-: 12
+    SHIELD: 13, 14
+
+properties:
+    nc: NC
+    
+schematic:
+    symbol: connector
+    right: DATA
+    left: LED1, LED2
+    bottom: SHIELD
+
+housing:
+    pattern: custom
+    options: polarized
+    bodyWidth: 16.5
+    bodyLength: 15.75
+    height: 13.25
+
+    # rj45 holes
+    holeDiameter1: 0.8
+    #rowCount1: 2
+    #columnCount1: 4
+    #rowDX1: -1.02, 1.02
+    #rowDY1: -1.78
+    #pitch1: 2.04 
+    padPosition1: 3.57, 0.89, 2.55, -0.89, 1.53, 0.89, 0.52, -0.89, -0.51, 0.89, -1.53, -0.89, -2.55, 0.89, -3.57, -0.89
+
+
+    # led holes
+    holeDiameter2: 0.8
+    padPosition2: -6.86, -5.71, -4.57, -5.71, 4.57, -5.71, 6.86, -5.71 
+
+    # shield/body holes
+    holeDiameter3: 1.7
+    padPosition3: -8.125, 0, 8.125, 0
+
+    # board guide holes
+    holeDiameter4: 3.25
+    padDiameter4: 0
+    padPosition4: -6.35, 3.43, 6.35, 3.43
+

@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name 8510-4500pl)(type Legacy)(uri ${KIPRJMOD}/../library/3m/8510-4500pl.lib)(options "")(descr ""))
+  (lib (name SN65LVDS049)(type Legacy)(uri ${KIPRJMOD}/../library/ti/SN65LVDS049.lib)(options "")(descr ""))
+  (lib (name 615008137421)(type Legacy)(uri ${KIPRJMOD}/../library/wurth/615008137421.lib)(options "")(descr ""))
+  (lib (name 74avc4t245)(type Legacy)(uri ${KIPRJMOD}/../library/nexperia/74avc4t245.lib)(options "")(descr ""))
+  (lib (name asp-134488-01)(type Legacy)(uri ${KIPRJMOD}/../library/samtec/asp-134488-01.lib)(options "")(descr ""))
+)

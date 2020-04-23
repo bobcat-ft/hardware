@@ -1,0 +1,38 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12VD
+D +12VD
+K power flag
+$ENDCMP
+#
+$CMP +1V8D
+D +1V8D
+K power flag
+$ENDCMP
+#
+$CMP +3V3A
+D +3V3A
+K power flag
+$ENDCMP
+#
+$CMP +3V3D
+D +3V3D
+K power flag
+$ENDCMP
+#
+$CMP +5VA
+D +5VA
+K power flag
+$ENDCMP
+#
+$CMP +5VD
+D +5VD
+K power flag
+$ENDCMP
+#
+$CMP -5VA
+D -5VA
+K power flag
+$ENDCMP
+#
+#End Doc Library

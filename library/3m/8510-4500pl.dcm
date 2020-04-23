@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0 Date: 06/11/2017 17:36:09
+#
+$CMP 8510-4500PL
+D .100" (2.54 mm) polarized boardmount socket
+K Connector, Female, Polarized
+F http://multimedia.3m.com/mws/media/22252O/3mtm-100-in-plr-bmskt-100x-100ctrbmp-strt-sldr-tls-ts0413.pdf
+$ENDCMP
+#
+# End Doc Library

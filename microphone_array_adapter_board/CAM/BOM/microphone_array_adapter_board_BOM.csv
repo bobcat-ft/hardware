@@ -1,0 +1,28 @@
+Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Vendor,Manufacturer Part Number,Config,Vendor Part Number,Manufacturer
+CAP CER 0.1UF 16V X7R 0402,C_Small,C3,0.1 uF,C_0402_1005Metric,1,https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf,Digi-Key,CGA2B1X7R1C104M050BC,load,445-12242-1-ND,TDK Corporation
+CAP CER 10UF 10V X5R 0603,C_Small,C2,10 uF,C_0603_1608Metric,1,https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf,Digi-Key,C1608X5R1A106K080AC,load,445-7486-1-ND,TDK Corporation
+CAP CER 100UF 6.3V X6S 1210,C_Small,C1,100 uF,C_1210_3225Metric,1,http://www.samsungsem.com/kr/support/product-search/mlcc/CL32X107MQVNNNE.jsp,Digi-Key,CL32X107MQVNNNE,load,1276-3399-1-ND,Samsung Electro-Mechanics
+CGA2B2X7R1H472M050BA,C_Small,C4,4700 pF,C_0402_1005Metric,1,https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf,Digi-Key,CGA2B2X7R1H472M050BA,load,445-12278-1-ND,TDK Corporation
+LED RED DIFFUSED 0603 SMD,LED,D1,LED,LED_0603_1608Metric,1,http://www.lumex.com/content/files/ProductAttachment/SML-LX0603SRW-TR.pdf,Digi-Key,SML-LX0603SRW-TR,load,67-1551-1-ND,Lumex Opto/Components Inc.
+CONN MOD JACK 8P8C R/A SHIELDED,615008137421,J1,615008137421,WURTH_615008137421,1,http://katalog.we-online.de/em/datasheet/615008137421.pdf,Digi-Key,615008137421,load,732-2112-ND,Wurth Electronics Inc.
+"CONN SOCKET PCB VERT 10POS .1""",8510-4500PL,J2,8510-4500PL,3M_8510-4500PL,1,http://multimedia.3m.com/mws/media/22252O/3mtm-100-in-plr-bmskt-100x-100ctrbmp-strt-sldr-tls-ts0413.pdf,Digi-Key,8510-4500PL,load,MSPV10-ND,3M
+RES SMD 100 OHM 0.1% 1/10W 0603,R_Small,R2 R3,100,R_0603_1608Metric,2,https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf,Digi-Key,ERA-3AEB101V,load,P100DBCT-ND,Panasonic Electronic Components
+RES SMD 107 OHM 1% 1/10W 0603,R_Small,R1,107,R_0603_1608Metric,1,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,Digi-Key,ERJ-3EKF1070V,load,P107HCT-ND,Panasonic Electronic Components
+1206 PROBE PAD,TestPoint,TP1,+3V3,Measurement_Point_SMD_1206,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English,Digi-Key,RCS-0C,load,A106143CT-ND,TE Connectivity AMP Connectors
+1206 PROBE PAD,TestPoint,TP2,GND,Measurement_Point_SMD_1206,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English,Digi-Key,RCS-0C,load,A106143CT-ND,TE Connectivity AMP Connectors
+IC LVDS DUAL DIF DVR/RCV 16TSSOP,SN65LVDS049,U1,SN65LVDS049,TSSOP-16_4.4x5mm_P0.65mm,1,http://www.ti.com/lit/ds/symlink/sn65lvds049.pdf,Digi-Key,SN65LVDS049PWR,load,296-26358-1-ND,Texas Instruments
+
+
+
+
+
+Component Groups:,12
+Component Count:,13
+Fitted Components:,13
+Number of PCBs:,1
+Total components:,13
+Schematic Version:,1
+Schematic Date:,2018-04-12
+BoM Date:,Tue 16 Apr 2019 09:32:15 AM MDT
+Schematic Source:,/home/trevor/research/NIH_SBIR_R44_DC015443/Audio_Beamforming/PCB/microphone_array_adapter_board/microphone_array_adapter_board.sch
+KiCad Version:,Eeschema 5.1.0

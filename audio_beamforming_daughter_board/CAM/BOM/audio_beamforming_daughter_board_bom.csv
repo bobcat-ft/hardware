@@ -1,0 +1,76 @@
+Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Vendor,Manufacturer Part Number,Config,Vendor Part Number,Manufacturer
+CAP CER 0.1UF 25V X7R 0603,C_Small,C16 C23 C24 C25 C26 C27 C28 C29 C30 C31 C34 C35 C37 C39 C41 C42 C43 C45 C68 C69 C70 C71 C84 C85 C88 C89 C92 C93 C96 C97 C100 C101 C104 C105 C108 C109 C112 C113,0.1uF,C_0603,38,https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf,Digi-Key,CGA3E2X7R1E104K080AA,load,445-5667-1-ND,TDK Corporation
+CAP CER 0.1UF 50V 10% X7R 0402,C_Small,C12 C18 C82 C86 C90 C94 C98 C102 C106 C110,0.1uF,C_0402,10,https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf,Digi-Key,CGA2B1X7R1C104M050BC,load,445-12242-1-ND,TDK Corporation
+CAP CER 0.47UF 16V X7R 0603,C_Small,C46 C47 C48 C49,0.47uF,C_0603,4,https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf,Digi-Key,CGA3E1X7R1C474M080AC,load,445-12537-1-ND,TDK Corporation
+CAP CER 1UF 16V X7R 0603,C_Small,C52 C53 C54 C55 C60 C61,1.0uF,C_0603,6,https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf,Digi-Key,CGA3E1X7R1C105M080AC,load,445-12540-1-ND,TDK Corporation
+"1000pF 50V Ceramic Capacitor X7R 0603 (1608 Metric) 0.063"" L x 0.031"" W (1.60mm x 0.80mm)",C_Small,C76 C78 C79 C81,1000pF,C_0603,4,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf,Digi-Key,CL10B102KB8NNNC,load,1276-1018-1-ND,"Samsung Electro-Mechanics America, Inc."
+CAP CER 100PF 100V 5% NP0 0603,C_Small,C62 C63 C77 C80,100pF,C_0603,4,https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf,Digi-Key,C1608C0G2A101J,load,445-2306-1-ND,TDK Corporation
+"100µF 6.3V Ceramic Capacitor X6S 1210 (3225 Metric) 0.126"" L x 0.098"" W (3.20mm x 2.50mm)",C_Small,C2 C6 C8 C11,100uF,C_1210,4,http://www.samsungsem.com/kr/support/product-search/mlcc/CL32X107MQVNNNE.jsp,Digi-Key,CL32X107MQVNNNE,load,1276-3399-1-ND,"Samsung Electro-Mechanics America, Inc."
+CAP CER 10000PF 100V X7R 0603,C_Small,C15,10nF,C_0402,1,https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf,Digi-Key,C1608X7R2A103K080AA,load,445-1304-1-ND,TDK Corporation
+CAP CER 10000PF 50V 5% X7R 0603,C_Small,C3 C20,10nF,C_0603,2,https://search.kemet.com/component-edge/download/datasheet/C0603C103J5RACTU.pdf,Digi-Key,C0603C103J5RACTU,load,399-1092-1-ND,Kemet
+CAP CER 10UF 10V 10% X5R 0603,C_Small,C1 C5 C7 C10 C22 C44,10uF,C_0603,6,https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf,Digi-Key,C1608X5R1A106K,load,445-7486-1-ND,TDK Corporation
+CAP TANT 10UF 10V 10% 1206,CP1_Small,C14,10uF,CP_Tantalum_Case-A_EIA-3216-18_Reflow,1,http://datasheets.avx.com/TPS.pdf,Digi-Key,TPSA106K010R0900,load,478-1751-1-ND,AVX Corporation
+"120pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric) 0.063"" L x 0.031"" W (1.60mm x 0.80mm)",C_Small,C66 C67,120pF,C_0603,2,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf,Digi-Key,CL10C121JB8NCNC,load,1276-2180-1-ND,"Samsung Electro-Mechanics America, Inc."
+CAP CER 22PF 50V C0G 0603,C_Small,C32 C33,22pF,C_0603,2,https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf,Digi-Key,CGA3E2C0G1H220J080AA,load,445-5632-1-ND,TDK Corporation
+CAP CER 22UF 10V X5R 0805,C_Small,C9 C17,22uF,C_0805,2,http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A226KPCLRNC.jsp,Digi-Key,CL21A226KPCLRNC,load,1276-6786-1-ND,"Samsung Electro-Mechanics America, Inc."
+CAP CER 22UF 16V 20% X6S 1206,C_Small,C19,22uF,C_1206,1,https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf,Digi-Key,C3216X6S1C226M,load,445-8044-1-ND,TDK Corporation
+CAP CER 3300PF 50V X7R 0603,C_Small,C4,3300pF,C_0603,1,https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf,Digi-Key,CGA3E2X7R1H332K080AA,load,445-6921-1-ND,TDK Corporation
+"390pF 50V Ceramic Capacitor X7R 0603 (1608 Metric) 0.063"" L x 0.031"" W (1.60mm x 0.80mm)",C_Small,C36,390pF,C_0603,1,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf,Digi-Key,CL10B391KB8NNNC,load,1276-2049-1-ND,"Samsung Electro-Mechanics America, Inc."
+CGA2B2X7R1H472M050BA,C_Small,C83 C87 C91 C95 C99 C103 C107 C111,4700pF,C_0402,8,https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf,Digi-Key,CGA2B2X7R1H472M050BA,load,445-12278-1-ND,TDK Corporation
+CAP ALUM 47UF 50V 20% SMD,CP1_Small,C13 C21,47uF,CP_Elec_6.3x5.8,2,https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1240.pdf,Digi-Key,EEE-FT1H470AP,load,PCE5023CT-ND,Panasonic - ECG
+47µF ±10% 16V Ceramic Capacitor X6S 1210 (3225 Metric),C_Small,C40 C64 C65 C72 C73 C74 C75,47uF,C_1210,7,http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EC81C476KE15-01.pdf,Digi-Key,GRM32EC81C476KE15L,load,490-10531-1-ND,Murata Electronics North America
+"5600pF 50V Ceramic Capacitor X7R 0603 (1608 Metric) 0.063"" L x 0.031"" W (1.60mm x 0.80mm)",C_Small,C38,5600pF,C_0603,1,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf,Digi-Key,CL10B562KB8SFNC,load,1276-2092-1-ND,"Samsung Electro-Mechanics America, Inc."
+LED RED DIFFUSED 0603 SMD,LED,D1 D2 D3 D4,SML-LX0603SRW-TR,LED_0603,4,http://www.lumex.com/content/files/ProductAttachment/SML-LX0603SRW-TR.pdf,Digi-Key,SML-LX0603SRW-TR,load,67-1551-1-ND,Lumex Opto/Components Inc.
+CONN MOD JACK 8P8C R/A SHIELDED,615008137421,J6 J7 J8 J9 J10 J11 J12 J13,615008137421,WURTH_615008137421,8,http://katalog.we-online.de/em/datasheet/615008137421.pdf,Digi-Key,615008137421,load,732-2112-ND,Wurth Electronics Inc.
+CONN SNGL-END ARRAY MALE 400POS,ASP-134488-01,J1,ASP-134488-01,asp-134488-01,1,http://suddendocs.samtec.com/prints/asp-134488-01.pdf,Digi-Key,ASP-134488-01,load,SAM8730-ND,Samtec Inc.
+"3.50mm (0.141"", 1/8"", Mini Plug) - Headphone Phone Jack Stereo Connector Solder",Audio-Jack-3_Switch,J3 J4,SJ-3523-SMT-TR,sj-352x-smt,2,http://www.cui.com/product/resource/digikeypdf/sj-352x-smt_series.pdf,Digi-Key,SJ-3523-SMT-TR,load,CP-3523SJCT-ND,CUI Inc.
+Fixed Inductors XFL4020 AEC-Q200 2.2 uH 20 % 8 A,L_Small,L1,2.2uH,xfl4020,1,https://www.mouser.com/ds/2/597/xfl4020-270756.pdf,Mouser,XFL4020-222MEB,load,994-XFL4020-222MEB,Coilcraft
+FERRITE CHIP 22 OHM 500MA 0603,L_Core_Ferrite,L2,BLM18BA220SN1D,L_0603,1,https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf,Digi-Key,BLM18BA220SN1D,load,490-1016-1-ND,Murata Electronics North America
+MOSFET N-CH 60V 190MA TO236AB,Q_NMOS_GSD,Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10 Q11 Q12 Q13 Q14 Q15 Q16 Q17,NX138AKR,SOT-23,17,https://assets.nexperia.com/documents/data-sheet/NX138AK.pdf,Digi-Key,NX138AKR,load,1727-2731-1-ND,Nexperia USA Inc.
+RES SMD 100 OHM 0.1% 1/10W 0603,R_Small,R34 R39 R44 R49 R54 R59 R64 R69,100,R_0603,8,https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf,Digi-Key,ERA-3AEB101V,load,P100DBCT-ND,Panasonic Electronic Components
+RES SMD 100K OHM 5% 1/10W 0603,R_Small,R4,100k,R_0603,1,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,Digi-Key,ERJ-3GEYJ104V,load,P100KGCT-ND,Panasonic Electronic Components
+RES SMD 107 OHM 1% 1/10W 0603,R_Small,R2,107,R_0603,1,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,Digi-Key,ERJ-3EKF1070V,load,P107HCT-ND,Panasonic Electronic Components
+RES 10K OHM 1/10W 5% 0603 SMD,R_Small,R8 R10 R11 R12 R13 R30 R31 R35 R36 R40 R41 R45 R46 R50 R51 R55 R56 R60 R61 R65 R66 R70 R71,10k,R_0603,23,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,Digi-Key,ERJ-3GEYJ103V,load,P10KGCT-ND,Panasonic Electronic Components
+RES SMD 220 OHM 5% 1/10W 0603,R_Small,R3,220,R_0603,1,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,Digi-Key,ERJ-3GEYJ221V,load,P220GCT-ND,Panasonic Electronic Components
+RES SMD 237 OHM 1% 1/10W 0603,R_Small,R26 R27 R28 R29,237,R_0603,4,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,Digi-Key,ERJ-3EKF2370V,load,P237HCT-ND,Panasonic Electronic Components
+RES 3.9 OHM 1/10W 1% 0603 SMD,R_Small,R6,3.9,R_0603,1,https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf,Digi-Key,ERJ-3RQF3R9V,load,P3.9AJCT-ND,Panasonic Electronic Components
+RES SMD 330 OHM 5% 1/10W 0603,R_Small,R32 R33 R37 R38 R42 R43 R47 R48 R52 R53 R57 R58 R62 R63 R67 R68,330,R_0603,16,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,Digi-Key,ERJ-3GEYJ331V,load,P330GCT-ND,Panasonic Electronic Components
+RES SMD 4.99K OHM 1% 1/10W 0603,R_Small,R16 R17,4.99k,R_0603,2,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,Digi-Key,ERJ-3EKF4991V,load,P4.99KHCT-ND,Panasonic Electronic Components
+RES SMD 49.9 OHM 1% 1/10W 0603,R_Small,R7,49.9,R_0603,1,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,Digi-Key,ERJ-3EKF49R9V,load,P49.9HCT-ND,Panasonic Electronic Components
+RES SMD 5.76K OHM 1% 1/10W 0603,R_Small,R18 R19 R20 R21 R22 R23 R24 R25,5.76k,R_0603,8,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,Digi-Key,ERJ-3EKF5761V,load,P5.76KHCT-ND,Panasonic Electronic Components
+RES SMD 562 OHM 1% 1/10W 0603,R_Small,R9,562,R_0603,1,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,Digi-Key,ERJ-3EKF5620V,load,P562HCT-ND,Panasonic Electronic Components
+RES SMD 6.2 OHM 5% 1/10W 0603,R_Small,R1,6.2,R_0603,1,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,Digi-Key,ERJ-3GEYJ6R2V,load,P6.2GCT-ND,Panasonic Electronic Components
+RES SMD 680 OHM 5% 1/4W 0603,R_Small,R5,680,R_0603,1,https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf,Digi-Key,ERJ-PA3J681V,load,P680BZCT-ND,Panasonic Electronic Components
+1206 PROBE PAD,TEST,TP11,+12VD,Measurement_Point_SMD_1206,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English,Digi-Key,RCS-0C,load,A106143CT-ND,TE Connectivity AMP Connectors
+1206 PROBE PAD,TEST,TP5,+1V8D,Measurement_Point_SMD_1206,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English,Digi-Key,RCS-0C,load,A106143CT-ND,TE Connectivity AMP Connectors
+1206 PROBE PAD,TEST,TP9,+3V3A,Measurement_Point_SMD_1206,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English,Digi-Key,RCS-0C,load,A106143CT-ND,TE Connectivity AMP Connectors
+1206 PROBE PAD,TEST,TP10,+3V3D,Measurement_Point_SMD_1206,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English,Digi-Key,RCS-0C,load,A106143CT-ND,TE Connectivity AMP Connectors
+1206 PROBE PAD,TEST,TP7,+5VA,Measurement_Point_SMD_1206,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English,Digi-Key,RCS-0C,load,A106143CT-ND,TE Connectivity AMP Connectors
+1206 PROBE PAD,TEST,TP8,+5VD,Measurement_Point_SMD_1206,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English,Digi-Key,RCS-0C,load,A106143CT-ND,TE Connectivity AMP Connectors
+1206 PROBE PAD,TEST,TP6,-5VA,Measurement_Point_SMD_1206,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English,Digi-Key,RCS-0C,load,A106143CT-ND,TE Connectivity AMP Connectors
+1206 PROBE PAD,TEST,TP1 TP3,GNDA,Measurement_Point_SMD_1206,2,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English,Digi-Key,RCS-0C,load,A106143CT-ND,TE Connectivity AMP Connectors
+1206 PROBE PAD,TEST,TP2 TP4,GNDD,Measurement_Point_SMD_1206,2,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English,Digi-Key,RCS-0C,load,A106143CT-ND,TE Connectivity AMP Connectors
+IC TXRX 4BIT DUAL 3ST 16TSSOP,74AVC4T245,U4 U5 U6 U7 U14 U16 U18 U20 U22 U24 U26 U28,74AVC4T245,TSSOP-16_4.4x5mm_Pitch0.65mm,12,https://assets.nexperia.com/documents/data-sheet/74AVC4T245.pdf,Digi-Key,74AVC4T245PW,load,1727-6573-1-ND,Nexperia USA Inc.
+Single-chip codec that prvides 4 ADCs with differential input and 8 DACs with differential output,AD1939YSTZ,U8,AD1939YSTZ,LQFP-64_10x10mm_Pitch0.5mm,1,http://www.analog.com/media/en/technical-documentation/data-sheets/AD1939.pdf,Digi-Key,AD1939YSTZ,load,AD1939YSTZ-ND,Analog Devices Inc.
+IC OPAMP GP 6.5MHZ 8SOIC,ADA4075-2,U11 U12,ADA4075-2,SOIC-8_3.9x4.9mm_Pitch1.27mm,2,http://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf,Digi-Key,ADA4075-2ARZ-R7,load,ADA4075-2ARZ-R7CT-ND,Analog Devices Inc.
+Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 200mA 8-SOIC,ADP3303ARZ-3.3-RL7,U2,ADP3303ARZ-3.3-RL7,SOIC-8_3.9x4.9mm_Pitch1.27mm,1,http://www.analog.com/media/en/technical-documentation/data-sheets/ADP3303.pdf,Digi-Key,ADP3303ARZ-3.3-RL7,load,ADP3303ARZ-3.3-RL7CT-ND,Analog Devices Inc.
+IC REG SWITCHD CAP INV -5V SOT23,LTC1983ES6-5#TRMPBF,U3,LTC1983ES6-5#TRMPBF,TSOT-23-6,1,http://www.linear.com/docs/2135,Digi-Key,LTC1983ES6-5#TRMPBF,load,LTC1983ES6-5#TRMPBFCT-ND,Linear Technology
+IC LVDS DUAL DIF DVR/RCV 16TSSOP,SN65LVDS049,U13 U15 U17 U19 U21 U23 U25 U27,SN65LVDS049,TSSOP-16_4.4x5mm_Pitch0.65mm,8,http://www.ti.com/lit/ds/symlink/sn65lvds049.pdf,Digi-Key,SN65LVDS049PWR,load,296-26358-1-ND,Texas Instruments
+"Amplifier IC Headphones, 2-Channel (Stereo) Class AB 20-QFN (4x4)",TPA6130A2,U10,TPA6130A2,ti_pwqfn_n20,1,http://www.ti.com/lit/ds/symlink/tpa6130a2.pdf,Digi-Key,TPA6130A2RTJR,load,296-21656-1-ND,Texas Instruments
+IC REG BUCK 5V 1A SYNC 16QFN,TPS6215x,U1,TPS62153RGTT,ti_vqfn-16,1,http://www.ti.com/lit/ds/symlink/tps62150.pdf,Digi-Key,TPS62153RGTT,load,296-30010-1-ND,Texas Instruments
+"12.288MHz ±10ppm Crystal 10pF 70 Ohm -10°C ~ 60°C Surface Mount 4-SMD, No Lead (DFN, LCC)",Crystal_GND24,Y1,ABM3B-12.288MHZ-10-1-U-T,Crystal_SMD_Abracon_ABM3B-4pin_5.0x3.2mm,1,http://www.abracon.com/Resonators/abm3b.pdf,Digi-Key,ABM3B-12.288MHZ-10-1-U-T,load,300-8198-1-ND,Abracon LLC
+
+
+
+
+
+Component Groups:,102
+Component Count:,336
+Fitted Components:,249
+Number of PCBs:,1
+Total components:,249
+Schematic Version:,1
+Schematic Date:,2018-04-12
+BoM Date:,Thu 19 Apr 2018 04:14:39 PM MDT
+Schematic Source:,/home/trevor/research/NIH_SBIR_R44_DC015443/Audio_Beamforming/PCB/audio_beamforming_daughter_board/audio_beamforming_daughter_board.sch
+KiCad Version:,Eeschema (5.0.0-rc2-dev-86-gcd2224b94)

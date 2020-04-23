@@ -1,0 +1,468 @@
+EESchema Schematic File Version 4
+LIBS:audio_beamforming_daughter_board-cache
+EELAYER 26 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 3 15
+Title "GPIO"
+Date "2018-04-12"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L conn:Conn_02x20_Odd_Even J2
+U 1 1 5A9348B0
+P 3650 3850
+F 0 "J2" H 3700 4967 50  0000 C CNN
+F 1 "TSW-120-07-F-D" H 3700 4876 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 3650 3850 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf" H 3650 3850 50  0001 C CNN
+F 4 ".025\" SQ. TERMINAL STRIPS" H 3650 3850 50  0001 C CNN "Description"
+F 5 "noload" H 3700 2750 50  0001 C CNN "Config"
+F 6 "Samtec Inc." H 3650 3850 50  0001 C CNN "Manufacturer"
+F 7 "TSW-120-07-F-D" H 3650 3850 50  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 3650 3850 50  0001 C CNN "Vendor"
+F 9 "SAM10358-ND" H 3650 3850 50  0001 C CNN "Vendor Part Number"
+	1    3650 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2950 3200 2950
+Wire Wire Line
+	3200 3050 3450 3050
+Wire Wire Line
+	3450 3150 3200 3150
+Wire Wire Line
+	3450 3250 3200 3250
+Wire Wire Line
+	3450 3350 3200 3350
+Wire Wire Line
+	3450 3450 3200 3450
+Wire Wire Line
+	3450 3550 3200 3550
+Wire Wire Line
+	3450 3650 3200 3650
+Wire Wire Line
+	3450 3750 3200 3750
+Wire Wire Line
+	3450 3850 3200 3850
+Wire Wire Line
+	3450 3950 3200 3950
+Wire Wire Line
+	3450 4050 3200 4050
+Wire Wire Line
+	3450 4150 3200 4150
+Wire Wire Line
+	3450 4350 3200 4350
+Wire Wire Line
+	3450 4550 3200 4550
+Wire Wire Line
+	3450 4750 3200 4750
+Wire Wire Line
+	3950 4750 4200 4750
+Wire Wire Line
+	3950 4550 4200 4550
+Wire Wire Line
+	3950 4350 4200 4350
+Wire Wire Line
+	3950 4150 4200 4150
+Wire Wire Line
+	3950 4050 4200 4050
+Wire Wire Line
+	3950 3950 4200 3950
+Wire Wire Line
+	3950 3850 4200 3850
+Wire Wire Line
+	3950 3750 4200 3750
+Wire Wire Line
+	3950 3650 4200 3650
+Wire Wire Line
+	3950 3550 4200 3550
+Wire Wire Line
+	3950 3450 4200 3450
+Wire Wire Line
+	3950 3350 4200 3350
+Wire Wire Line
+	3950 3250 4200 3250
+Wire Wire Line
+	3950 3150 4200 3150
+Wire Wire Line
+	3950 3050 4200 3050
+Wire Wire Line
+	3950 2950 4200 2950
+Text HLabel 8700 5450 2    60   BiDi ~ 0
+GPIO[0..31]
+Entry Wire Line
+	8350 5250 8250 5150
+Entry Wire Line
+	8350 5150 8250 5050
+Entry Wire Line
+	8350 5050 8250 4950
+Entry Wire Line
+	8350 4950 8250 4850
+Entry Wire Line
+	8350 4850 8250 4750
+Entry Wire Line
+	8350 4750 8250 4650
+Entry Wire Line
+	8350 4650 8250 4550
+Entry Wire Line
+	8350 4550 8250 4450
+Entry Wire Line
+	8350 4450 8250 4350
+Entry Wire Line
+	8350 4350 8250 4250
+Entry Wire Line
+	8350 4250 8250 4150
+Entry Wire Line
+	8350 4150 8250 4050
+Entry Wire Line
+	8350 4050 8250 3950
+Entry Wire Line
+	8350 3950 8250 3850
+Entry Wire Line
+	8350 3850 8250 3750
+Entry Wire Line
+	8350 3750 8250 3650
+Entry Wire Line
+	8350 3650 8250 3550
+Entry Wire Line
+	8350 3550 8250 3450
+Entry Wire Line
+	8350 3450 8250 3350
+Entry Wire Line
+	8350 3350 8250 3250
+Entry Wire Line
+	8350 3250 8250 3150
+Entry Wire Line
+	8350 3150 8250 3050
+Entry Wire Line
+	8350 3050 8250 2950
+Entry Wire Line
+	8350 2950 8250 2850
+Entry Wire Line
+	8350 2850 8250 2750
+Entry Wire Line
+	8350 2750 8250 2650
+Entry Wire Line
+	8350 2650 8250 2550
+Entry Wire Line
+	8350 2550 8250 2450
+Entry Wire Line
+	8350 2450 8250 2350
+Entry Wire Line
+	8350 2350 8250 2250
+Entry Wire Line
+	8350 2250 8250 2150
+Entry Wire Line
+	8350 2150 8250 2050
+Text Label 8000 2150 2    60   ~ 0
+GPIO1
+Text Label 8000 2350 2    60   ~ 0
+GPIO3
+Text Label 8000 2550 2    60   ~ 0
+GPIO5
+Text Label 8000 2750 2    60   ~ 0
+GPIO7
+Text Label 8000 2950 2    60   ~ 0
+GPIO9
+Text Label 8000 3150 2    60   ~ 0
+GPIO11
+Text Label 8000 3350 2    60   ~ 0
+GPIO13
+Text Label 8000 3550 2    60   ~ 0
+GPIO15
+Text Label 8000 3750 2    60   ~ 0
+GPIO17
+Text Label 8000 3950 2    60   ~ 0
+GPIO19
+Text Label 8000 4150 2    60   ~ 0
+GPIO21
+Text Label 8000 4350 2    60   ~ 0
+GPIO23
+Text Label 8000 4550 2    60   ~ 0
+GPIO25
+Text Label 8000 4750 2    60   ~ 0
+GPIO27
+Text Label 8000 4950 2    60   ~ 0
+GPIO29
+Text Label 8000 5150 2    60   ~ 0
+GPIO31
+Text Label 8000 2050 2    60   ~ 0
+GPIO0
+Text Label 8000 2250 2    60   ~ 0
+GPIO2
+Text Label 8000 2450 2    60   ~ 0
+GPIO4
+Text Label 8000 2650 2    60   ~ 0
+GPIO6
+Text Label 8000 2850 2    60   ~ 0
+GPIO8
+Text Label 8000 3050 2    60   ~ 0
+GPIO10
+Text Label 8000 3250 2    60   ~ 0
+GPIO12
+Text Label 8000 3450 2    60   ~ 0
+GPIO14
+Text Label 8000 3650 2    60   ~ 0
+GPIO16
+Text Label 8000 3850 2    60   ~ 0
+GPIO18
+Text Label 8000 4050 2    60   ~ 0
+GPIO20
+Text Label 8000 4250 2    60   ~ 0
+GPIO22
+Text Label 8000 4450 2    60   ~ 0
+GPIO24
+Text Label 8000 4650 2    60   ~ 0
+GPIO26
+Text Label 8000 4850 2    60   ~ 0
+GPIO28
+Text Label 8000 5050 2    60   ~ 0
+GPIO30
+Wire Wire Line
+	8250 2050 8000 2050
+Wire Wire Line
+	8250 2150 8000 2150
+Wire Wire Line
+	8000 2250 8250 2250
+Wire Wire Line
+	8250 2350 8000 2350
+Wire Wire Line
+	8250 2450 8000 2450
+Wire Wire Line
+	8250 2550 8000 2550
+Wire Wire Line
+	8250 2650 8000 2650
+Wire Wire Line
+	8250 2750 8000 2750
+Wire Wire Line
+	8250 2850 8000 2850
+Wire Wire Line
+	8000 2950 8250 2950
+Wire Wire Line
+	8000 3050 8250 3050
+Wire Wire Line
+	8000 3150 8250 3150
+Wire Wire Line
+	8000 3250 8250 3250
+Wire Wire Line
+	8000 3350 8250 3350
+Wire Wire Line
+	8000 3450 8250 3450
+Wire Wire Line
+	8000 3550 8250 3550
+Wire Wire Line
+	8000 3650 8250 3650
+Wire Wire Line
+	8000 3750 8250 3750
+Wire Wire Line
+	8000 3850 8250 3850
+Wire Wire Line
+	8000 3950 8250 3950
+Wire Wire Line
+	8000 4050 8250 4050
+Wire Wire Line
+	8000 4150 8250 4150
+Wire Wire Line
+	8000 4250 8250 4250
+Wire Wire Line
+	8000 4350 8250 4350
+Wire Wire Line
+	8000 4450 8250 4450
+Wire Wire Line
+	8000 4550 8250 4550
+Wire Wire Line
+	8000 4650 8250 4650
+Wire Wire Line
+	8250 4750 8000 4750
+Wire Wire Line
+	8000 4850 8250 4850
+Wire Wire Line
+	8000 4950 8250 4950
+Wire Wire Line
+	8000 5050 8250 5050
+Wire Wire Line
+	8000 5150 8250 5150
+Wire Bus Line
+	8350 5450 8700 5450
+Text Label 4200 4750 0    60   ~ 0
+GPIO31
+Text Label 4200 4550 0    60   ~ 0
+GPIO29
+Text Label 4200 4350 0    60   ~ 0
+GPIO27
+Text Label 4200 4150 0    60   ~ 0
+GPIO25
+Text Label 4200 4050 0    60   ~ 0
+GPIO23
+Text Label 4200 3950 0    60   ~ 0
+GPIO21
+Text Label 4200 3850 0    60   ~ 0
+GPIO19
+Text Label 4200 3750 0    60   ~ 0
+GPIO17
+Text Label 4200 3650 0    60   ~ 0
+GPIO15
+Text Label 4200 3550 0    60   ~ 0
+GPIO13
+Text Label 4200 3450 0    60   ~ 0
+GPIO11
+Text Label 4200 3350 0    60   ~ 0
+GPIO9
+Text Label 4200 3250 0    60   ~ 0
+GPIO7
+Text Label 4200 3150 0    60   ~ 0
+GPIO5
+Text Label 4200 3050 0    60   ~ 0
+GPIO3
+Text Label 4200 2950 0    60   ~ 0
+GPIO1
+Text Label 3200 4750 2    60   ~ 0
+GPIO30
+Text Label 3200 4550 2    60   ~ 0
+GPIO28
+Text Label 3200 4350 2    60   ~ 0
+GPIO26
+Text Label 3200 4150 2    60   ~ 0
+GPIO24
+Text Label 3200 4050 2    60   ~ 0
+GPIO22
+Text Label 3200 3950 2    60   ~ 0
+GPIO20
+Text Label 3200 3850 2    60   ~ 0
+GPIO18
+Text Label 3200 3750 2    60   ~ 0
+GPIO16
+Text Label 3200 3650 2    60   ~ 0
+GPIO14
+Text Label 3200 3550 2    60   ~ 0
+GPIO12
+Text Label 3200 3450 2    60   ~ 0
+GPIO10
+Text Label 3200 3350 2    60   ~ 0
+GPIO8
+Text Label 3200 3250 2    60   ~ 0
+GPIO6
+Text Label 3200 3150 2    60   ~ 0
+GPIO4
+Text Label 3200 3050 2    60   ~ 0
+GPIO2
+Text Label 3200 2950 2    60   ~ 0
+GPIO0
+$Comp
+L power:GNDD #PWR0178
+U 1 1 5A96685F
+P 4600 4850
+F 0 "#PWR0178" H 4600 4600 50  0001 C CNN
+F 1 "GNDD" V 4604 4740 50  0000 R CNN
+F 2 "" H 4600 4850 50  0001 C CNN
+F 3 "" H 4600 4850 50  0001 C CNN
+	1    4600 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L my_power:+12VD #PWR0174
+U 1 1 5A9668CA
+P 2750 4850
+F 0 "#PWR0174" H 2750 4700 50  0001 C CNN
+F 1 "+12VD" V 2765 4978 50  0000 L CNN
+F 2 "" H 2750 4850 50  0001 C CNN
+F 3 "" H 2750 4850 50  0001 C CNN
+	1    2750 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L my_power:+5VD #PWR0173
+U 1 1 5A966950
+P 2750 4650
+F 0 "#PWR0173" H 2750 4500 50  0001 C CNN
+F 1 "+5VD" V 2765 4778 50  0000 L CNN
+F 2 "" H 2750 4650 50  0001 C CNN
+F 3 "" H 2750 4650 50  0001 C CNN
+	1    2750 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 4650 3450 4650
+Wire Wire Line
+	2750 4850 3450 4850
+Wire Wire Line
+	3950 4850 4600 4850
+$Comp
+L power:GNDD #PWR0177
+U 1 1 5A97186C
+P 4600 4650
+F 0 "#PWR0177" H 4600 4400 50  0001 C CNN
+F 1 "GNDD" V 4604 4540 50  0000 R CNN
+F 2 "" H 4600 4650 50  0001 C CNN
+F 3 "" H 4600 4650 50  0001 C CNN
+	1    4600 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3950 4650 4600 4650
+$Comp
+L my_power:+3V3D #PWR0172
+U 1 1 5A97460B
+P 2750 4450
+F 0 "#PWR0172" H 2750 4300 50  0001 C CNN
+F 1 "+3V3D" V 2765 4578 50  0000 L CNN
+F 2 "" H 2750 4450 50  0001 C CNN
+F 3 "" H 2750 4450 50  0001 C CNN
+	1    2750 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L my_power:+1V8D #PWR0171
+U 1 1 5A9746B1
+P 2750 4250
+F 0 "#PWR0171" H 2750 4100 50  0001 C CNN
+F 1 "+1V8D" V 2765 4378 50  0000 L CNN
+F 2 "" H 2750 4250 50  0001 C CNN
+F 3 "" H 2750 4250 50  0001 C CNN
+	1    2750 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 4250 3450 4250
+Wire Wire Line
+	2750 4450 3450 4450
+$Comp
+L power:GNDD #PWR0176
+U 1 1 5A97A2B7
+P 4600 4450
+F 0 "#PWR0176" H 4600 4200 50  0001 C CNN
+F 1 "GNDD" V 4604 4340 50  0000 R CNN
+F 2 "" H 4600 4450 50  0001 C CNN
+F 3 "" H 4600 4450 50  0001 C CNN
+	1    4600 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDD #PWR0175
+U 1 1 5A97A2D1
+P 4600 4250
+F 0 "#PWR0175" H 4600 4000 50  0001 C CNN
+F 1 "GNDD" V 4604 4140 50  0000 R CNN
+F 2 "" H 4600 4250 50  0001 C CNN
+F 3 "" H 4600 4250 50  0001 C CNN
+	1    4600 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3950 4250 4600 4250
+Wire Wire Line
+	3950 4450 4600 4450
+Text Notes 5050 1600 0    60   ~ 0
+Power rail current limits\n-----------------\n12VD : 1 A\n5VD   : 1 A\n3V3D : 1.45 A\n1V8D : 1.45 A\n
+Text Notes 3550 5050 0    60   ~ 0
+no load
+Wire Bus Line
+	8350 2150 8350 5450
+$EndSCHEMATC

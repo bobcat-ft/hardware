@@ -1,0 +1,1150 @@
+EESchema Schematic File Version 4
+LIBS:audio_beamforming_daughter_board-cache
+EELAYER 26 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 8 15
+Title "Microphone Array Interface"
+Date "2018-04-12"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 615008137421:615008137421 J8
+U 1 1 5A73B646
+P 2900 3000
+AR Path="/5A062075/5A73B646" Ref="J8"  Part="1" 
+AR Path="/5A736244/5A73B646" Ref="J?"  Part="1" 
+AR Path="/5A7363B1/5A73B646" Ref="J12"  Part="1" 
+AR Path="/5A73628D/5A73B646" Ref="J?"  Part="1" 
+AR Path="/5A736317/5A73B646" Ref="J?"  Part="1" 
+AR Path="/5A736B65/5A73B646" Ref="J11"  Part="1" 
+AR Path="/5A73627F/5A73B646" Ref="J6"  Part="1" 
+AR Path="/5A7363AA/5A73B646" Ref="J13"  Part="1" 
+AR Path="/5A736B57/5A73B646" Ref="J9"  Part="1" 
+AR Path="/5A74CC7B/5A73B646" Ref="J7"  Part="1" 
+AR Path="/5A736B5E/5A73B646" Ref="J10"  Part="1" 
+F 0 "J6" H 3450 3168 50  0000 C CNN
+F 1 "615008137421" H 3450 3077 50  0000 C CNN
+F 2 "615008137421:WURTH_615008137421" H 2900 3000 10  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/615008137421.pdf" H 2900 3000 10  0001 C CNN
+F 4 "CONN MOD JACK 8P8C R/A SHIELDED" H 2900 3000 50  0001 C CNN "Description"
+F 5 "load" H 2900 3000 50  0001 C CNN "Config"
+F 6 "Wurth Electronics Inc." H 2900 3000 50  0001 C CNN "Manufacturer"
+F 7 "615008137421" H 2900 3000 50  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 2900 3000 50  0001 C CNN "Vendor"
+F 9 "732-2112-ND" H 2900 3000 50  0001 C CNN "Vendor Part Number"
+	1    2900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN65LVDS049:SN65LVDS049 U13
+U 1 1 5A73B650
+P 6000 3450
+AR Path="/5A73627F/5A73B650" Ref="U13"  Part="1" 
+AR Path="/5A74CC7B/5A73B650" Ref="U15"  Part="1" 
+AR Path="/5A062075/5A73B650" Ref="U17"  Part="1" 
+AR Path="/5A736B57/5A73B650" Ref="U19"  Part="1" 
+AR Path="/5A736B5E/5A73B650" Ref="U21"  Part="1" 
+AR Path="/5A736B65/5A73B650" Ref="U23"  Part="1" 
+AR Path="/5A7363B1/5A73B650" Ref="U25"  Part="1" 
+AR Path="/5A7363AA/5A73B650" Ref="U27"  Part="1" 
+F 0 "U13" H 6000 4165 50  0000 C CNN
+F 1 "SN65LVDS049" H 6000 4074 50  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 6000 3450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65lvds049.pdf" H 6000 3450 50  0001 C CNN
+F 4 "IC LVDS DUAL DIF DVR/RCV 16TSSOP" H 6000 3450 50  0001 C CNN "Description"
+F 5 "load" H 6000 3450 50  0001 C CNN "Config"
+F 6 "Texas Instruments" H 6000 3450 50  0001 C CNN "Manufacturer"
+F 7 "SN65LVDS049PWR" H 6000 3450 50  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 6000 3450 50  0001 C CNN "Vendor"
+F 9 "296-26358-1-ND" H 6000 3450 50  0001 C CNN "Vendor Part Number"
+	1    6000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74avc4t245:74AVC4T245 U18
+U 1 1 5A063562
+P 7700 3100
+AR Path="/5A062075/5A063562" Ref="U18"  Part="1" 
+AR Path="/5A736244/5A063562" Ref="U?"  Part="1" 
+AR Path="/5A7363B1/5A063562" Ref="U26"  Part="1" 
+AR Path="/5A73628D/5A063562" Ref="U?"  Part="1" 
+AR Path="/5A736317/5A063562" Ref="U?"  Part="1" 
+AR Path="/5A736B65/5A063562" Ref="U24"  Part="1" 
+AR Path="/5A73627F/5A063562" Ref="U14"  Part="1" 
+AR Path="/5A7363AA/5A063562" Ref="U28"  Part="1" 
+AR Path="/5A736B57/5A063562" Ref="U20"  Part="1" 
+AR Path="/5A74CC7B/5A063562" Ref="U16"  Part="1" 
+AR Path="/5A736B5E/5A063562" Ref="U22"  Part="1" 
+F 0 "U14" H 8300 3390 60  0000 C CNN
+F 1 "74AVC4T245" H 8300 3284 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7700 3100 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AVC4T245.pdf" H 7700 3100 60  0001 C CNN
+F 4 "IC TXRX 4BIT DUAL 3ST 16TSSOP" H 7700 3100 50  0001 C CNN "Description"
+F 5 "load" H 7700 3100 50  0001 C CNN "Config"
+F 6 "Nexperia USA Inc." H 7700 3100 50  0001 C CNN "Manufacturer"
+F 7 "74AVC4T245PW" H 7700 3100 50  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 7700 3100 50  0001 C CNN "Vendor"
+F 9 "1727-6573-1-ND" H 7700 3100 50  0001 C CNN "Vendor Part Number"
+	1    7700 3100
+	1    0    0    -1  
+$EndComp
+Text Label 4200 3100 0    60   ~ 0
++3V3
+Text Label 4200 3200 0    60   ~ 0
+GND
+Text Label 4200 3700 0    60   ~ 0
+SD+
+Text Label 4200 3800 0    60   ~ 0
+SD-
+Text Label 4200 3400 0    60   ~ 0
+WS+
+Text Label 4200 3500 0    60   ~ 0
+WS-
+Text Label 4200 3300 0    60   ~ 0
+SCK+
+Text Label 4200 3600 0    60   ~ 0
+SCK-
+$Comp
+L device:R_Small R34
+U 1 1 5A73B659
+P 4850 3000
+AR Path="/5A73627F/5A73B659" Ref="R34"  Part="1" 
+AR Path="/5A74CC7B/5A73B659" Ref="R39"  Part="1" 
+AR Path="/5A062075/5A73B659" Ref="R44"  Part="1" 
+AR Path="/5A736B57/5A73B659" Ref="R49"  Part="1" 
+AR Path="/5A736B5E/5A73B659" Ref="R54"  Part="1" 
+AR Path="/5A736B65/5A73B659" Ref="R59"  Part="1" 
+AR Path="/5A7363B1/5A73B659" Ref="R64"  Part="1" 
+AR Path="/5A7363AA/5A73B659" Ref="R69"  Part="1" 
+F 0 "R34" H 4909 3046 50  0000 L CNN
+F 1 "100" H 4909 2955 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 4850 3000 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4850 3000 50  0001 C CNN
+F 4 "RES SMD 100 OHM 0.1% 1/10W 0603" H 4850 3000 50  0001 C CNN "Description"
+F 5 "load" H 4850 3000 50  0001 C CNN "Config"
+F 6 "Panasonic Electronic Components" H 4850 3000 50  0001 C CNN "Manufacturer"
+F 7 "ERA-3AEB101V" H 4850 3000 50  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 4850 3000 50  0001 C CNN "Vendor"
+F 9 "P100DBCT-ND" H 4850 3000 50  0001 C CNN "Vendor Part Number"
+	1    4850 3000
+	-1   0    0    1   
+$EndComp
+Text Label 6750 3200 0    60   ~ 0
+SD_3V3
+Text Label 6750 3700 0    60   ~ 0
+SCK_3V3
+Text Label 6750 3600 0    60   ~ 0
+WS_3V3
+$Comp
+L device:C_Small C82
+U 1 1 5A73B65E
+P 7100 2450
+AR Path="/5A73627F/5A73B65E" Ref="C82"  Part="1" 
+AR Path="/5A74CC7B/5A73B65E" Ref="C86"  Part="1" 
+AR Path="/5A062075/5A73B65E" Ref="C90"  Part="1" 
+AR Path="/5A736B57/5A73B65E" Ref="C94"  Part="1" 
+AR Path="/5A736B5E/5A73B65E" Ref="C98"  Part="1" 
+AR Path="/5A736B65/5A73B65E" Ref="C102"  Part="1" 
+AR Path="/5A7363B1/5A73B65E" Ref="C106"  Part="1" 
+AR Path="/5A7363AA/5A73B65E" Ref="C110"  Part="1" 
+F 0 "C82" V 6871 2450 50  0000 C CNN
+F 1 "0.1uF" V 6962 2450 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0402" H 6350 4150 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 6350 4150 50  0001 C CNN
+F 4 "CAP CER 0.1UF 16V X7R 0402" H 6350 4150 50  0001 C CNN "Description"
+F 5 "load" H 6350 4150 50  0001 C CNN "Config"
+F 6 "TDK Corporation" H 6350 4150 50  0001 C CNN "Manufacturer"
+F 7 "CGA2B1X7R1C104M050BC" H 6350 4150 50  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 6350 4150 50  0001 C CNN "Vendor"
+F 9 "445-12242-1-ND" H 6350 4150 50  0001 C CNN "Vendor Part Number"
+	1    7100 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L device:C_Small C83
+U 1 1 5A73B668
+P 7100 2800
+AR Path="/5A73627F/5A73B668" Ref="C83"  Part="1" 
+AR Path="/5A74CC7B/5A73B668" Ref="C87"  Part="1" 
+AR Path="/5A062075/5A73B668" Ref="C91"  Part="1" 
+AR Path="/5A736B57/5A73B668" Ref="C95"  Part="1" 
+AR Path="/5A736B5E/5A73B668" Ref="C99"  Part="1" 
+AR Path="/5A736B65/5A73B668" Ref="C103"  Part="1" 
+AR Path="/5A7363B1/5A73B668" Ref="C107"  Part="1" 
+AR Path="/5A7363AA/5A73B668" Ref="C111"  Part="1" 
+F 0 "C83" V 6871 2800 50  0000 C CNN
+F 1 "4700pF" V 6962 2800 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0402" H 6350 4550 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 6350 4550 50  0001 C CNN
+F 4 "CGA2B2X7R1H472M050BA" H 6350 4550 50  0001 C CNN "Description"
+F 5 "load" H 6350 4550 50  0001 C CNN "Config"
+F 6 "TDK Corporation" H 6350 4550 50  0001 C CNN "Manufacturer"
+F 7 "CGA2B2X7R1H472M050BA" H 6350 4550 50  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 6350 4550 50  0001 C CNN "Vendor"
+F 9 "445-12278-1-ND" H 6350 4550 50  0001 C CNN "Vendor Part Number"
+	1    7100 2800
+	0    1    1    0   
+$EndComp
+Text HLabel 9350 3400 2    60   Output ~ 0
+SD
+Text HLabel 9350 3600 2    60   Input ~ 0
+SCK
+Text HLabel 9350 3700 2    60   Input ~ 0
+WS
+Text Notes 8550 2550 2    60   ~ 0
+level shifter
+Text Notes 6250 2550 2    60   ~ 0
+transceiever
+$Comp
+L device:C_Small C84
+U 1 1 5A73B66B
+P 8050 4850
+AR Path="/5A73627F/5A73B66B" Ref="C84"  Part="1" 
+AR Path="/5A74CC7B/5A73B66B" Ref="C88"  Part="1" 
+AR Path="/5A062075/5A73B66B" Ref="C92"  Part="1" 
+AR Path="/5A736B57/5A73B66B" Ref="C96"  Part="1" 
+AR Path="/5A736B5E/5A73B66B" Ref="C100"  Part="1" 
+AR Path="/5A736B65/5A73B66B" Ref="C104"  Part="1" 
+AR Path="/5A7363B1/5A73B66B" Ref="C108"  Part="1" 
+AR Path="/5A7363AA/5A73B66B" Ref="C112"  Part="1" 
+F 0 "C84" H 7958 4804 50  0000 R CNN
+F 1 "0.1uF" H 7958 4895 50  0000 R CNN
+F 2 "Capacitors_SMD:C_0603" H 6250 2900 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 6250 2900 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X7R 0603" H 7700 3100 50  0001 C CNN "Description"
+F 5 "load" H 7700 3100 50  0001 C CNN "Config"
+F 6 "TDK Corporation" H 7700 3100 50  0001 C CNN "Manufacturer"
+F 7 "CGA3E2X7R1E104K080AA" H 7700 3100 50  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 7700 3100 50  0001 C CNN "Vendor"
+F 9 "445-5667-1-ND" H 7700 3100 50  0001 C CNN "Vendor Part Number"
+	1    8050 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:C_Small C85
+U 1 1 5A73B670
+P 8550 4850
+AR Path="/5A73627F/5A73B670" Ref="C85"  Part="1" 
+AR Path="/5A74CC7B/5A73B670" Ref="C89"  Part="1" 
+AR Path="/5A062075/5A73B670" Ref="C93"  Part="1" 
+AR Path="/5A736B57/5A73B670" Ref="C97"  Part="1" 
+AR Path="/5A736B5E/5A73B670" Ref="C101"  Part="1" 
+AR Path="/5A736B65/5A73B670" Ref="C105"  Part="1" 
+AR Path="/5A7363B1/5A73B670" Ref="C109"  Part="1" 
+AR Path="/5A7363AA/5A73B670" Ref="C113"  Part="1" 
+F 0 "C85" H 8458 4804 50  0000 R CNN
+F 1 "0.1uF" H 8458 4895 50  0000 R CNN
+F 2 "Capacitors_SMD:C_0603" H 6250 2900 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" H 6250 2900 50  0001 C CNN
+F 4 "CAP CER 0.1UF 25V X7R 0603" H 7700 3100 50  0001 C CNN "Description"
+F 5 "load" H 7700 3100 50  0001 C CNN "Config"
+F 6 "TDK Corporation" H 7700 3100 50  0001 C CNN "Manufacturer"
+F 7 "CGA3E2X7R1E104K080AA" H 7700 3100 50  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 7700 3100 50  0001 C CNN "Vendor"
+F 9 "445-5667-1-ND" H 7700 3100 50  0001 C CNN "Vendor Part Number"
+	1    8550 4850
+	-1   0    0    1   
+$EndComp
+Text Notes 9000 4400 2    60   ~ 0
+level shifter decoupling caps
+$Comp
+L device:Q_NMOS_GSD Q2
+U 1 1 5A73B67C
+P 2150 4150
+AR Path="/5A73627F/5A73B67C" Ref="Q2"  Part="1" 
+AR Path="/5A74CC7B/5A73B67C" Ref="Q4"  Part="1" 
+AR Path="/5A062075/5A73B67C" Ref="Q6"  Part="1" 
+AR Path="/5A736B57/5A73B67C" Ref="Q8"  Part="1" 
+AR Path="/5A736B5E/5A73B67C" Ref="Q10"  Part="1" 
+AR Path="/5A736B65/5A73B67C" Ref="Q12"  Part="1" 
+AR Path="/5A7363B1/5A73B67C" Ref="Q14"  Part="1" 
+AR Path="/5A7363AA/5A73B67C" Ref="Q16"  Part="1" 
+F 0 "Q2" H 2355 4196 50  0000 L CNN
+F 1 "NX138AKR" H 2355 4105 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2350 4250 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/NX138AK.pdf" H 2150 4150 50  0001 C CNN
+F 4 "MOSFET N-CH 60V 190MA TO236AB" H 2150 4150 50  0001 C CNN "Description"
+F 5 "load" H 2150 4150 50  0001 C CNN "Config"
+F 6 "Nexperia USA Inc." H 2150 4150 50  0001 C CNN "Manufacturer"
+F 7 "NX138AKR" H 2150 4150 50  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 2150 4150 50  0001 C CNN "Vendor"
+F 9 "1727-2731-1-ND" H 2150 4150 50  0001 C CNN "Vendor Part Number"
+	1    2150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R_Small R33
+U 1 1 5A73B685
+P 2600 3000
+AR Path="/5A73627F/5A73B685" Ref="R33"  Part="1" 
+AR Path="/5A74CC7B/5A73B685" Ref="R38"  Part="1" 
+AR Path="/5A062075/5A73B685" Ref="R43"  Part="1" 
+AR Path="/5A736B57/5A73B685" Ref="R48"  Part="1" 
+AR Path="/5A736B5E/5A73B685" Ref="R53"  Part="1" 
+AR Path="/5A736B65/5A73B685" Ref="R58"  Part="1" 
+AR Path="/5A7363B1/5A73B685" Ref="R63"  Part="1" 
+AR Path="/5A7363AA/5A73B685" Ref="R68"  Part="1" 
+F 0 "R33" H 2659 3046 50  0000 L CNN
+F 1 "330" H 2659 2955 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 2300 3000 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 2300 3000 50  0001 C CNN
+F 4 "RES SMD 330 OHM 5% 1/10W 0603" H 2300 3000 50  0001 C CNN "Description"
+F 5 "load" H 2300 3000 50  0001 C CNN "Config"
+F 6 "Panasonic Electronic Components" H 2300 3000 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-3GEYJ331V" H 2300 3000 50  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 2300 3000 50  0001 C CNN "Vendor"
+F 9 "P330GCT-ND" H 2300 3000 50  0001 C CNN "Vendor Part Number"
+	1    2600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R_Small R32
+U 1 1 5A73B688
+P 2300 3000
+AR Path="/5A73627F/5A73B688" Ref="R32"  Part="1" 
+AR Path="/5A74CC7B/5A73B688" Ref="R37"  Part="1" 
+AR Path="/5A062075/5A73B688" Ref="R42"  Part="1" 
+AR Path="/5A736B57/5A73B688" Ref="R47"  Part="1" 
+AR Path="/5A736B5E/5A73B688" Ref="R52"  Part="1" 
+AR Path="/5A736B65/5A73B688" Ref="R57"  Part="1" 
+AR Path="/5A7363B1/5A73B688" Ref="R62"  Part="1" 
+AR Path="/5A7363AA/5A73B688" Ref="R67"  Part="1" 
+F 0 "R32" H 2359 3046 50  0000 L CNN
+F 1 "330" H 2359 2955 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 2300 3000 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 2300 3000 50  0001 C CNN
+F 4 "RES SMD 330 OHM 5% 1/10W 0603" H 2300 3000 50  0001 C CNN "Description"
+F 5 "load" H 2300 3000 50  0001 C CNN "Config"
+F 6 "Panasonic Electronic Components" H 2300 3000 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-3GEYJ331V" H 2300 3000 50  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 2300 3000 50  0001 C CNN "Vendor"
+F 9 "P330GCT-ND" H 2300 3000 50  0001 C CNN "Vendor Part Number"
+	1    2300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R_Small R30
+U 1 1 5A73B690
+P 1650 3750
+AR Path="/5A73627F/5A73B690" Ref="R30"  Part="1" 
+AR Path="/5A74CC7B/5A73B690" Ref="R35"  Part="1" 
+AR Path="/5A062075/5A73B690" Ref="R40"  Part="1" 
+AR Path="/5A736B57/5A73B690" Ref="R45"  Part="1" 
+AR Path="/5A736B5E/5A73B690" Ref="R50"  Part="1" 
+AR Path="/5A736B65/5A73B690" Ref="R55"  Part="1" 
+AR Path="/5A7363B1/5A73B690" Ref="R60"  Part="1" 
+AR Path="/5A7363AA/5A73B690" Ref="R65"  Part="1" 
+F 0 "R30" H 1709 3796 50  0000 L CNN
+F 1 "10k" H 1709 3705 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 1650 3750 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 1650 3750 50  0001 C CNN
+F 4 "RES SMD 10K OHM 5% 1/10W 0603" H 1650 3750 50  0001 C CNN "Description"
+F 5 "load" H 1650 3750 50  0001 C CNN "Config"
+F 6 "Panasonic Electronic Components" H 1650 3750 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-3GEYJ103V" H 1650 3750 50  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 1650 3750 50  0001 C CNN "Vendor"
+F 9 "P10KGCT-ND" H 1650 3750 50  0001 C CNN "Vendor Part Number"
+	1    1650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R_Small R31
+U 1 1 5A73B695
+P 1950 4350
+AR Path="/5A73627F/5A73B695" Ref="R31"  Part="1" 
+AR Path="/5A74CC7B/5A73B695" Ref="R36"  Part="1" 
+AR Path="/5A062075/5A73B695" Ref="R41"  Part="1" 
+AR Path="/5A736B57/5A73B695" Ref="R46"  Part="1" 
+AR Path="/5A736B5E/5A73B695" Ref="R51"  Part="1" 
+AR Path="/5A736B65/5A73B695" Ref="R56"  Part="1" 
+AR Path="/5A7363B1/5A73B695" Ref="R61"  Part="1" 
+AR Path="/5A7363AA/5A73B695" Ref="R66"  Part="1" 
+F 0 "R31" H 2009 4396 50  0000 L CNN
+F 1 "10k" H 2009 4305 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 1650 3750 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 1650 3750 50  0001 C CNN
+F 4 "RES SMD 10K OHM 5% 1/10W 0603" H 1650 3750 50  0001 C CNN "Description"
+F 5 "load" H 1650 3750 50  0001 C CNN "Config"
+F 6 "Panasonic Electronic Components" H 1650 3750 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-3GEYJ103V" H 1650 3750 50  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 1650 3750 50  0001 C CNN "Vendor"
+F 9 "P10KGCT-ND" H 1650 3750 50  0001 C CNN "Vendor Part Number"
+	1    1950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Q_NMOS_GSD Q1
+U 1 1 5A73B678
+P 1850 3550
+AR Path="/5A73627F/5A73B678" Ref="Q1"  Part="1" 
+AR Path="/5A74CC7B/5A73B678" Ref="Q3"  Part="1" 
+AR Path="/5A062075/5A73B678" Ref="Q5"  Part="1" 
+AR Path="/5A736B57/5A73B678" Ref="Q7"  Part="1" 
+AR Path="/5A736B5E/5A73B678" Ref="Q9"  Part="1" 
+AR Path="/5A736B65/5A73B678" Ref="Q11"  Part="1" 
+AR Path="/5A7363B1/5A73B678" Ref="Q13"  Part="1" 
+AR Path="/5A7363AA/5A73B678" Ref="Q15"  Part="1" 
+F 0 "Q1" H 2055 3596 50  0000 L CNN
+F 1 "NX138AKR" H 2055 3505 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2050 3650 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/NX138AK.pdf" H 1850 3550 50  0001 C CNN
+F 4 "MOSFET N-CH 60V 190MA TO236AB" H 1850 3550 50  0001 C CNN "Description"
+F 5 "load" H 1850 3550 50  0001 C CNN "Config"
+F 6 "Nexperia USA Inc." H 1850 3550 50  0001 C CNN "Manufacturer"
+F 7 "NX138AKR" H 1850 3550 50  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 1850 3550 50  0001 C CNN "Vendor"
+F 9 "1727-2731-1-ND" H 1850 3550 50  0001 C CNN "Vendor Part Number"
+	1    1850 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4300 3450 4200
+Wire Wire Line
+	3400 4200 3450 4200
+Connection ~ 3450 4200
+Wire Wire Line
+	7700 3950 7700 3800
+Wire Wire Line
+	8900 3800 8900 3950
+Wire Wire Line
+	6750 3800 6750 3950
+Wire Wire Line
+	6750 2950 6750 3100
+Wire Wire Line
+	6900 3500 6750 3500
+Wire Wire Line
+	6900 2200 6900 2450
+Wire Wire Line
+	6900 2450 7000 2450
+Connection ~ 6900 2450
+Wire Wire Line
+	7200 2450 7300 2450
+Connection ~ 7300 2450
+Wire Wire Line
+	7200 2800 7300 2800
+Connection ~ 7300 2800
+Wire Wire Line
+	7000 2800 6900 2800
+Connection ~ 6900 2800
+Wire Wire Line
+	7700 2950 7700 3100
+Wire Wire Line
+	8900 2950 8900 3100
+Wire Wire Line
+	8900 3200 9150 3200
+Wire Wire Line
+	9150 2950 9150 3200
+Wire Wire Line
+	9150 3300 8900 3300
+Connection ~ 9150 3200
+Wire Wire Line
+	7700 3300 7450 3300
+Wire Wire Line
+	7450 3300 7450 2950
+Wire Wire Line
+	8900 3600 9350 3600
+Wire Wire Line
+	8900 3700 9350 3700
+Wire Wire Line
+	8050 4650 8050 4750
+Wire Wire Line
+	8550 4650 8550 4750
+Wire Wire Line
+	8550 4950 8550 5050
+Wire Wire Line
+	8050 4950 8050 5050
+Wire Wire Line
+	2250 3650 2250 3950
+Wire Wire Line
+	2250 3650 2700 3650
+Wire Wire Line
+	1950 3350 2700 3350
+Wire Wire Line
+	2700 3250 2600 3250
+Wire Wire Line
+	2600 3250 2600 3100
+Wire Wire Line
+	2700 3550 2300 3550
+Wire Wire Line
+	2300 3550 2300 3100
+Wire Wire Line
+	2300 2800 2300 2900
+Wire Wire Line
+	2600 2800 2600 2900
+Wire Wire Line
+	1650 3650 1650 3550
+Wire Wire Line
+	1950 4250 1950 4150
+Wire Wire Line
+	1650 3550 1500 3550
+Wire Wire Line
+	1950 4150 1500 4150
+Text HLabel 1500 3550 0    60   Input ~ 0
+LED_WS
+Text HLabel 1500 4150 0    60   Input ~ 0
+LED_SD
+Wire Wire Line
+	4200 2800 4200 3100
+Wire Wire Line
+	4200 3200 4500 3200
+Wire Wire Line
+	4500 3200 4500 2800
+Text Notes 750  3350 0    60   ~ 0
+*Note: Transistors are needed \nbecasue the LEDs are driven \nfrom 1.8V FPGA IO
+$Comp
+L device:TEST TP43
+U 1 1 5A73B6BD
+P 3350 5700
+AR Path="/5A73627F/5A73B6BD" Ref="TP43"  Part="1" 
+AR Path="/5A74CC7B/5A73B6BD" Ref="TP49"  Part="1" 
+AR Path="/5A062075/5A73B6BD" Ref="TP55"  Part="1" 
+AR Path="/5A736B57/5A73B6BD" Ref="TP61"  Part="1" 
+AR Path="/5A736B5E/5A73B6BD" Ref="TP67"  Part="1" 
+AR Path="/5A736B65/5A73B6BD" Ref="TP73"  Part="1" 
+AR Path="/5A7363B1/5A73B6BD" Ref="TP79"  Part="1" 
+AR Path="/5A7363AA/5A73B6BD" Ref="TP85"  Part="1" 
+F 0 "TP43" H 3350 6050 50  0000 L CNN
+F 1 "SD_3V3" H 3350 5950 50  0000 L CNN
+F 2 "My_Measurement_Points:Measurement_Point_Round-TH_0.4mm" H 3350 5700 50  0001 C CNN
+F 3 "" H 3350 5700 50  0001 C CNN
+F 4 "noload" H 3350 5700 50  0001 C CNN "Config"
+	1    3350 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:TEST TP44
+U 1 1 5A0CC9F6
+P 3750 5700
+AR Path="/5A73627F/5A0CC9F6" Ref="TP44"  Part="1" 
+AR Path="/5A74CC7B/5A0CC9F6" Ref="TP50"  Part="1" 
+AR Path="/5A062075/5A0CC9F6" Ref="TP56"  Part="1" 
+AR Path="/5A736B57/5A0CC9F6" Ref="TP62"  Part="1" 
+AR Path="/5A736B5E/5A0CC9F6" Ref="TP68"  Part="1" 
+AR Path="/5A736B65/5A0CC9F6" Ref="TP74"  Part="1" 
+AR Path="/5A7363B1/5A0CC9F6" Ref="TP80"  Part="1" 
+AR Path="/5A7363AA/5A0CC9F6" Ref="TP86"  Part="1" 
+F 0 "TP44" H 3750 6050 50  0000 L CNN
+F 1 "WS_3V3" H 3750 5950 50  0000 L CNN
+F 2 "My_Measurement_Points:Measurement_Point_Round-TH_0.4mm" H 3750 5700 50  0001 C CNN
+F 3 "" H 3750 5700 50  0001 C CNN
+F 4 "noload" H 3750 5700 50  0001 C CNN "Config"
+	1    3750 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:TEST TP45
+U 1 1 5A73B6C9
+P 4150 5700
+AR Path="/5A73627F/5A73B6C9" Ref="TP45"  Part="1" 
+AR Path="/5A74CC7B/5A73B6C9" Ref="TP51"  Part="1" 
+AR Path="/5A062075/5A73B6C9" Ref="TP57"  Part="1" 
+AR Path="/5A736B57/5A73B6C9" Ref="TP63"  Part="1" 
+AR Path="/5A736B5E/5A73B6C9" Ref="TP69"  Part="1" 
+AR Path="/5A736B65/5A73B6C9" Ref="TP75"  Part="1" 
+AR Path="/5A7363B1/5A73B6C9" Ref="TP81"  Part="1" 
+AR Path="/5A7363AA/5A73B6C9" Ref="TP87"  Part="1" 
+F 0 "TP45" H 4150 6050 50  0000 L CNN
+F 1 "SCK_3V3" H 4150 5950 50  0000 L CNN
+F 2 "My_Measurement_Points:Measurement_Point_Round-TH_0.4mm" H 4150 5700 50  0001 C CNN
+F 3 "" H 4150 5700 50  0001 C CNN
+F 4 "noload" H 4150 5700 50  0001 C CNN "Config"
+	1    4150 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:TEST TP46
+U 1 1 5A73B6D4
+P 4600 5700
+AR Path="/5A73627F/5A73B6D4" Ref="TP46"  Part="1" 
+AR Path="/5A74CC7B/5A73B6D4" Ref="TP52"  Part="1" 
+AR Path="/5A062075/5A73B6D4" Ref="TP58"  Part="1" 
+AR Path="/5A736B57/5A73B6D4" Ref="TP64"  Part="1" 
+AR Path="/5A736B5E/5A73B6D4" Ref="TP70"  Part="1" 
+AR Path="/5A736B65/5A73B6D4" Ref="TP76"  Part="1" 
+AR Path="/5A7363B1/5A73B6D4" Ref="TP82"  Part="1" 
+AR Path="/5A7363AA/5A73B6D4" Ref="TP88"  Part="1" 
+F 0 "TP46" H 4600 6050 50  0000 L CNN
+F 1 "SD" H 4600 5950 50  0000 L CNN
+F 2 "My_Measurement_Points:Measurement_Point_Round-TH_0.4mm" H 4600 5700 50  0001 C CNN
+F 3 "" H 4600 5700 50  0001 C CNN
+F 4 "noload" H 4600 5700 50  0001 C CNN "Config"
+	1    4600 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:TEST TP47
+U 1 1 5A73B6D7
+P 5000 5700
+AR Path="/5A73627F/5A73B6D7" Ref="TP47"  Part="1" 
+AR Path="/5A74CC7B/5A73B6D7" Ref="TP53"  Part="1" 
+AR Path="/5A062075/5A73B6D7" Ref="TP59"  Part="1" 
+AR Path="/5A736B57/5A73B6D7" Ref="TP65"  Part="1" 
+AR Path="/5A736B5E/5A73B6D7" Ref="TP71"  Part="1" 
+AR Path="/5A736B65/5A73B6D7" Ref="TP77"  Part="1" 
+AR Path="/5A7363B1/5A73B6D7" Ref="TP83"  Part="1" 
+AR Path="/5A7363AA/5A73B6D7" Ref="TP89"  Part="1" 
+F 0 "TP47" H 5000 6050 50  0000 L CNN
+F 1 "WS" H 5000 5950 50  0000 L CNN
+F 2 "My_Measurement_Points:Measurement_Point_Round-TH_0.4mm" H 5000 5700 50  0001 C CNN
+F 3 "" H 5000 5700 50  0001 C CNN
+F 4 "noload" H 5000 5700 50  0001 C CNN "Config"
+	1    5000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:TEST TP48
+U 1 1 5A0CD1AA
+P 5400 5700
+AR Path="/5A73627F/5A0CD1AA" Ref="TP48"  Part="1" 
+AR Path="/5A74CC7B/5A0CD1AA" Ref="TP54"  Part="1" 
+AR Path="/5A062075/5A0CD1AA" Ref="TP60"  Part="1" 
+AR Path="/5A736B57/5A0CD1AA" Ref="TP66"  Part="1" 
+AR Path="/5A736B5E/5A0CD1AA" Ref="TP72"  Part="1" 
+AR Path="/5A736B65/5A0CD1AA" Ref="TP78"  Part="1" 
+AR Path="/5A7363B1/5A0CD1AA" Ref="TP84"  Part="1" 
+AR Path="/5A7363AA/5A0CD1AA" Ref="TP90"  Part="1" 
+F 0 "TP48" H 5400 6050 50  0000 L CNN
+F 1 "SCK" H 5400 5950 50  0000 L CNN
+F 2 "My_Measurement_Points:Measurement_Point_Round-TH_0.4mm" H 5400 5700 50  0001 C CNN
+F 3 "" H 5400 5700 50  0001 C CNN
+F 4 "noload" H 5400 5700 50  0001 C CNN "Config"
+	1    5400 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 5700 3350 5950
+Wire Wire Line
+	3750 5700 3750 5950
+Wire Wire Line
+	4150 5700 4150 5950
+Wire Wire Line
+	4600 5700 4600 5950
+Wire Wire Line
+	5000 5700 5000 5950
+Wire Wire Line
+	5400 5700 5400 5950
+Text Label 3350 5950 3    60   ~ 0
+SD_3V3
+Text Label 3750 5950 3    60   ~ 0
+WS_3V3
+Text Label 4150 5950 3    60   ~ 0
+SCK_3V3
+Text Label 4600 5950 3    60   ~ 0
+SD
+Text Label 5000 5950 3    60   ~ 0
+WS
+Text Label 5400 5950 3    60   ~ 0
+SCK
+Text Notes 3400 5150 2    60   ~ 0
+test points
+Text Notes 3500 2600 2    60   ~ 0
+rj45
+$Comp
+L my_power:+3V3D #PWR0347
+U 1 1 5A73B6E4
+P 2300 2800
+AR Path="/5A73627F/5A73B6E4" Ref="#PWR0347"  Part="1" 
+AR Path="/5A74CC7B/5A73B6E4" Ref="#PWR0370"  Part="1" 
+AR Path="/5A062075/5A73B6E4" Ref="#PWR0393"  Part="1" 
+AR Path="/5A736B57/5A73B6E4" Ref="#PWR0416"  Part="1" 
+AR Path="/5A736B5E/5A73B6E4" Ref="#PWR0439"  Part="1" 
+AR Path="/5A736B65/5A73B6E4" Ref="#PWR0462"  Part="1" 
+AR Path="/5A7363B1/5A73B6E4" Ref="#PWR0485"  Part="1" 
+AR Path="/5A7363AA/5A73B6E4" Ref="#PWR0508"  Part="1" 
+F 0 "#PWR0347" H 2300 2650 50  0001 C CNN
+F 1 "+3V3D" H 2315 2973 50  0000 C CNN
+F 2 "" H 2300 2800 50  0001 C CNN
+F 3 "" H 2300 2800 50  0001 C CNN
+	1    2300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L my_power:+3V3D #PWR0348
+U 1 1 5A73B6E9
+P 2600 2800
+AR Path="/5A73627F/5A73B6E9" Ref="#PWR0348"  Part="1" 
+AR Path="/5A74CC7B/5A73B6E9" Ref="#PWR0371"  Part="1" 
+AR Path="/5A062075/5A73B6E9" Ref="#PWR0394"  Part="1" 
+AR Path="/5A736B57/5A73B6E9" Ref="#PWR0417"  Part="1" 
+AR Path="/5A736B5E/5A73B6E9" Ref="#PWR0440"  Part="1" 
+AR Path="/5A736B65/5A73B6E9" Ref="#PWR0463"  Part="1" 
+AR Path="/5A7363B1/5A73B6E9" Ref="#PWR0486"  Part="1" 
+AR Path="/5A7363AA/5A73B6E9" Ref="#PWR0509"  Part="1" 
+F 0 "#PWR0348" H 2600 2650 50  0001 C CNN
+F 1 "+3V3D" H 2615 2973 50  0000 C CNN
+F 2 "" H 2600 2800 50  0001 C CNN
+F 3 "" H 2600 2800 50  0001 C CNN
+	1    2600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L my_power:+3V3D #PWR0350
+U 1 1 5A3C23FF
+P 4200 2800
+AR Path="/5A73627F/5A3C23FF" Ref="#PWR0350"  Part="1" 
+AR Path="/5A74CC7B/5A3C23FF" Ref="#PWR0373"  Part="1" 
+AR Path="/5A062075/5A3C23FF" Ref="#PWR0396"  Part="1" 
+AR Path="/5A736B57/5A3C23FF" Ref="#PWR0419"  Part="1" 
+AR Path="/5A736B5E/5A3C23FF" Ref="#PWR0442"  Part="1" 
+AR Path="/5A736B65/5A3C23FF" Ref="#PWR0465"  Part="1" 
+AR Path="/5A7363B1/5A3C23FF" Ref="#PWR0488"  Part="1" 
+AR Path="/5A7363AA/5A3C23FF" Ref="#PWR0511"  Part="1" 
+F 0 "#PWR0350" H 4200 2650 50  0001 C CNN
+F 1 "+3V3D" H 4215 2973 50  0000 C CNN
+F 2 "" H 4200 2800 50  0001 C CNN
+F 3 "" H 4200 2800 50  0001 C CNN
+	1    4200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L my_power:+3V3D #PWR0354
+U 1 1 5A73B6F5
+P 6900 2200
+AR Path="/5A73627F/5A73B6F5" Ref="#PWR0354"  Part="1" 
+AR Path="/5A74CC7B/5A73B6F5" Ref="#PWR0377"  Part="1" 
+AR Path="/5A062075/5A73B6F5" Ref="#PWR0400"  Part="1" 
+AR Path="/5A736B57/5A73B6F5" Ref="#PWR0423"  Part="1" 
+AR Path="/5A736B5E/5A73B6F5" Ref="#PWR0446"  Part="1" 
+AR Path="/5A736B65/5A73B6F5" Ref="#PWR0469"  Part="1" 
+AR Path="/5A7363B1/5A73B6F5" Ref="#PWR0492"  Part="1" 
+AR Path="/5A7363AA/5A73B6F5" Ref="#PWR0515"  Part="1" 
+F 0 "#PWR0354" H 6900 2050 50  0001 C CNN
+F 1 "+3V3D" H 6915 2373 50  0000 C CNN
+F 2 "" H 6900 2200 50  0001 C CNN
+F 3 "" H 6900 2200 50  0001 C CNN
+	1    6900 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L my_power:+3V3D #PWR0359
+U 1 1 5A73B6FE
+P 8050 4650
+AR Path="/5A73627F/5A73B6FE" Ref="#PWR0359"  Part="1" 
+AR Path="/5A74CC7B/5A73B6FE" Ref="#PWR0382"  Part="1" 
+AR Path="/5A062075/5A73B6FE" Ref="#PWR0405"  Part="1" 
+AR Path="/5A736B57/5A73B6FE" Ref="#PWR0428"  Part="1" 
+AR Path="/5A736B5E/5A73B6FE" Ref="#PWR0451"  Part="1" 
+AR Path="/5A736B65/5A73B6FE" Ref="#PWR0474"  Part="1" 
+AR Path="/5A7363B1/5A73B6FE" Ref="#PWR0497"  Part="1" 
+AR Path="/5A7363AA/5A73B6FE" Ref="#PWR0520"  Part="1" 
+F 0 "#PWR0359" H 8050 4500 50  0001 C CNN
+F 1 "+3V3D" H 8065 4823 50  0000 C CNN
+F 2 "" H 8050 4650 50  0001 C CNN
+F 3 "" H 8050 4650 50  0001 C CNN
+	1    8050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0344
+U 1 1 5A73B702
+P 1950 3750
+AR Path="/5A73627F/5A73B702" Ref="#PWR0344"  Part="1" 
+AR Path="/5A74CC7B/5A73B702" Ref="#PWR0367"  Part="1" 
+AR Path="/5A062075/5A73B702" Ref="#PWR0390"  Part="1" 
+AR Path="/5A736B57/5A73B702" Ref="#PWR0413"  Part="1" 
+AR Path="/5A736B5E/5A73B702" Ref="#PWR0436"  Part="1" 
+AR Path="/5A736B65/5A73B702" Ref="#PWR0459"  Part="1" 
+AR Path="/5A7363B1/5A73B702" Ref="#PWR0482"  Part="1" 
+AR Path="/5A7363AA/5A73B702" Ref="#PWR0505"  Part="1" 
+F 0 "#PWR0344" H 1950 3500 50  0001 C CNN
+F 1 "GNDD" H 1955 3577 50  0000 C CNN
+F 2 "" H 1950 3750 50  0001 C CNN
+F 3 "" H 1950 3750 50  0001 C CNN
+	1    1950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0343
+U 1 1 5A73B70A
+P 1650 3850
+AR Path="/5A73627F/5A73B70A" Ref="#PWR0343"  Part="1" 
+AR Path="/5A74CC7B/5A73B70A" Ref="#PWR0366"  Part="1" 
+AR Path="/5A062075/5A73B70A" Ref="#PWR0389"  Part="1" 
+AR Path="/5A736B57/5A73B70A" Ref="#PWR0412"  Part="1" 
+AR Path="/5A736B5E/5A73B70A" Ref="#PWR0435"  Part="1" 
+AR Path="/5A736B65/5A73B70A" Ref="#PWR0458"  Part="1" 
+AR Path="/5A7363B1/5A73B70A" Ref="#PWR0481"  Part="1" 
+AR Path="/5A7363AA/5A73B70A" Ref="#PWR0504"  Part="1" 
+F 0 "#PWR0343" H 1650 3600 50  0001 C CNN
+F 1 "GNDD" H 1655 3677 50  0000 C CNN
+F 2 "" H 1650 3850 50  0001 C CNN
+F 3 "" H 1650 3850 50  0001 C CNN
+	1    1650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0345
+U 1 1 5A73B70D
+P 1950 4450
+AR Path="/5A73627F/5A73B70D" Ref="#PWR0345"  Part="1" 
+AR Path="/5A74CC7B/5A73B70D" Ref="#PWR0368"  Part="1" 
+AR Path="/5A062075/5A73B70D" Ref="#PWR0391"  Part="1" 
+AR Path="/5A736B57/5A73B70D" Ref="#PWR0414"  Part="1" 
+AR Path="/5A736B5E/5A73B70D" Ref="#PWR0437"  Part="1" 
+AR Path="/5A736B65/5A73B70D" Ref="#PWR0460"  Part="1" 
+AR Path="/5A7363B1/5A73B70D" Ref="#PWR0483"  Part="1" 
+AR Path="/5A7363AA/5A73B70D" Ref="#PWR0506"  Part="1" 
+F 0 "#PWR0345" H 1950 4200 50  0001 C CNN
+F 1 "GNDD" H 1955 4277 50  0000 C CNN
+F 2 "" H 1950 4450 50  0001 C CNN
+F 3 "" H 1950 4450 50  0001 C CNN
+	1    1950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0346
+U 1 1 5A73B713
+P 2250 4350
+AR Path="/5A73627F/5A73B713" Ref="#PWR0346"  Part="1" 
+AR Path="/5A74CC7B/5A73B713" Ref="#PWR0369"  Part="1" 
+AR Path="/5A062075/5A73B713" Ref="#PWR0392"  Part="1" 
+AR Path="/5A736B57/5A73B713" Ref="#PWR0415"  Part="1" 
+AR Path="/5A736B5E/5A73B713" Ref="#PWR0438"  Part="1" 
+AR Path="/5A736B65/5A73B713" Ref="#PWR0461"  Part="1" 
+AR Path="/5A7363B1/5A73B713" Ref="#PWR0484"  Part="1" 
+AR Path="/5A7363AA/5A73B713" Ref="#PWR0507"  Part="1" 
+F 0 "#PWR0346" H 2250 4100 50  0001 C CNN
+F 1 "GNDD" H 2255 4177 50  0000 C CNN
+F 2 "" H 2250 4350 50  0001 C CNN
+F 3 "" H 2250 4350 50  0001 C CNN
+	1    2250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0349
+U 1 1 5A73B719
+P 3450 4300
+AR Path="/5A73627F/5A73B719" Ref="#PWR0349"  Part="1" 
+AR Path="/5A74CC7B/5A73B719" Ref="#PWR0372"  Part="1" 
+AR Path="/5A062075/5A73B719" Ref="#PWR0395"  Part="1" 
+AR Path="/5A736B57/5A73B719" Ref="#PWR0418"  Part="1" 
+AR Path="/5A736B5E/5A73B719" Ref="#PWR0441"  Part="1" 
+AR Path="/5A736B65/5A73B719" Ref="#PWR0464"  Part="1" 
+AR Path="/5A7363B1/5A73B719" Ref="#PWR0487"  Part="1" 
+AR Path="/5A7363AA/5A73B719" Ref="#PWR0510"  Part="1" 
+F 0 "#PWR0349" H 3450 4050 50  0001 C CNN
+F 1 "GNDD" H 3455 4127 50  0000 C CNN
+F 2 "" H 3450 4300 50  0001 C CNN
+F 3 "" H 3450 4300 50  0001 C CNN
+	1    3450 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0353
+U 1 1 5A73B720
+P 6750 3950
+AR Path="/5A73627F/5A73B720" Ref="#PWR0353"  Part="1" 
+AR Path="/5A74CC7B/5A73B720" Ref="#PWR0376"  Part="1" 
+AR Path="/5A062075/5A73B720" Ref="#PWR0399"  Part="1" 
+AR Path="/5A736B57/5A73B720" Ref="#PWR0422"  Part="1" 
+AR Path="/5A736B5E/5A73B720" Ref="#PWR0445"  Part="1" 
+AR Path="/5A736B65/5A73B720" Ref="#PWR0468"  Part="1" 
+AR Path="/5A7363B1/5A73B720" Ref="#PWR0491"  Part="1" 
+AR Path="/5A7363AA/5A73B720" Ref="#PWR0514"  Part="1" 
+F 0 "#PWR0353" H 6750 3700 50  0001 C CNN
+F 1 "GNDD" H 6755 3777 50  0000 C CNN
+F 2 "" H 6750 3950 50  0001 C CNN
+F 3 "" H 6750 3950 50  0001 C CNN
+	1    6750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0358
+U 1 1 5A73B726
+P 7700 3950
+AR Path="/5A73627F/5A73B726" Ref="#PWR0358"  Part="1" 
+AR Path="/5A74CC7B/5A73B726" Ref="#PWR0381"  Part="1" 
+AR Path="/5A062075/5A73B726" Ref="#PWR0404"  Part="1" 
+AR Path="/5A736B57/5A73B726" Ref="#PWR0427"  Part="1" 
+AR Path="/5A736B5E/5A73B726" Ref="#PWR0450"  Part="1" 
+AR Path="/5A736B65/5A73B726" Ref="#PWR0473"  Part="1" 
+AR Path="/5A7363B1/5A73B726" Ref="#PWR0496"  Part="1" 
+AR Path="/5A7363AA/5A73B726" Ref="#PWR0519"  Part="1" 
+F 0 "#PWR0358" H 7700 3700 50  0001 C CNN
+F 1 "GNDD" H 7705 3777 50  0000 C CNN
+F 2 "" H 7700 3950 50  0001 C CNN
+F 3 "" H 7700 3950 50  0001 C CNN
+	1    7700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0364
+U 1 1 5A73B72D
+P 8900 3950
+AR Path="/5A73627F/5A73B72D" Ref="#PWR0364"  Part="1" 
+AR Path="/5A74CC7B/5A73B72D" Ref="#PWR0387"  Part="1" 
+AR Path="/5A062075/5A73B72D" Ref="#PWR0410"  Part="1" 
+AR Path="/5A736B57/5A73B72D" Ref="#PWR0433"  Part="1" 
+AR Path="/5A736B5E/5A73B72D" Ref="#PWR0456"  Part="1" 
+AR Path="/5A736B65/5A73B72D" Ref="#PWR0479"  Part="1" 
+AR Path="/5A7363B1/5A73B72D" Ref="#PWR0502"  Part="1" 
+AR Path="/5A7363AA/5A73B72D" Ref="#PWR0525"  Part="1" 
+F 0 "#PWR0364" H 8900 3700 50  0001 C CNN
+F 1 "GNDD" H 8905 3777 50  0000 C CNN
+F 2 "" H 8900 3950 50  0001 C CNN
+F 3 "" H 8900 3950 50  0001 C CNN
+	1    8900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0362
+U 1 1 5A73B733
+P 8550 5050
+AR Path="/5A73627F/5A73B733" Ref="#PWR0362"  Part="1" 
+AR Path="/5A74CC7B/5A73B733" Ref="#PWR0385"  Part="1" 
+AR Path="/5A062075/5A73B733" Ref="#PWR0408"  Part="1" 
+AR Path="/5A736B57/5A73B733" Ref="#PWR0431"  Part="1" 
+AR Path="/5A736B5E/5A73B733" Ref="#PWR0454"  Part="1" 
+AR Path="/5A736B65/5A73B733" Ref="#PWR0477"  Part="1" 
+AR Path="/5A7363B1/5A73B733" Ref="#PWR0500"  Part="1" 
+AR Path="/5A7363AA/5A73B733" Ref="#PWR0523"  Part="1" 
+F 0 "#PWR0362" H 8550 4800 50  0001 C CNN
+F 1 "GNDD" H 8555 4877 50  0000 C CNN
+F 2 "" H 8550 5050 50  0001 C CNN
+F 3 "" H 8550 5050 50  0001 C CNN
+	1    8550 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0360
+U 1 1 5A73B738
+P 8050 5050
+AR Path="/5A73627F/5A73B738" Ref="#PWR0360"  Part="1" 
+AR Path="/5A74CC7B/5A73B738" Ref="#PWR0383"  Part="1" 
+AR Path="/5A062075/5A73B738" Ref="#PWR0406"  Part="1" 
+AR Path="/5A736B57/5A73B738" Ref="#PWR0429"  Part="1" 
+AR Path="/5A736B5E/5A73B738" Ref="#PWR0452"  Part="1" 
+AR Path="/5A736B65/5A73B738" Ref="#PWR0475"  Part="1" 
+AR Path="/5A7363B1/5A73B738" Ref="#PWR0498"  Part="1" 
+AR Path="/5A7363AA/5A73B738" Ref="#PWR0521"  Part="1" 
+F 0 "#PWR0360" H 8050 4800 50  0001 C CNN
+F 1 "GNDD" H 8055 4877 50  0000 C CNN
+F 2 "" H 8050 5050 50  0001 C CNN
+F 3 "" H 8050 5050 50  0001 C CNN
+	1    8050 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0365
+U 1 1 5A73B73B
+P 9150 2950
+AR Path="/5A73627F/5A73B73B" Ref="#PWR0365"  Part="1" 
+AR Path="/5A74CC7B/5A73B73B" Ref="#PWR0388"  Part="1" 
+AR Path="/5A062075/5A73B73B" Ref="#PWR0411"  Part="1" 
+AR Path="/5A736B57/5A73B73B" Ref="#PWR0434"  Part="1" 
+AR Path="/5A736B5E/5A73B73B" Ref="#PWR0457"  Part="1" 
+AR Path="/5A736B65/5A73B73B" Ref="#PWR0480"  Part="1" 
+AR Path="/5A7363B1/5A73B73B" Ref="#PWR0503"  Part="1" 
+AR Path="/5A7363AA/5A73B73B" Ref="#PWR0526"  Part="1" 
+F 0 "#PWR0365" H 9150 2700 50  0001 C CNN
+F 1 "GNDD" H 9155 2777 50  0000 C CNN
+F 2 "" H 9150 2950 50  0001 C CNN
+F 3 "" H 9150 2950 50  0001 C CNN
+	1    9150 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDD #PWR0356
+U 1 1 5A3C3D9A
+P 7450 2950
+AR Path="/5A73627F/5A3C3D9A" Ref="#PWR0356"  Part="1" 
+AR Path="/5A74CC7B/5A3C3D9A" Ref="#PWR0379"  Part="1" 
+AR Path="/5A062075/5A3C3D9A" Ref="#PWR0402"  Part="1" 
+AR Path="/5A736B57/5A3C3D9A" Ref="#PWR0425"  Part="1" 
+AR Path="/5A736B5E/5A3C3D9A" Ref="#PWR0448"  Part="1" 
+AR Path="/5A736B65/5A3C3D9A" Ref="#PWR0471"  Part="1" 
+AR Path="/5A7363B1/5A3C3D9A" Ref="#PWR0494"  Part="1" 
+AR Path="/5A7363AA/5A3C3D9A" Ref="#PWR0517"  Part="1" 
+F 0 "#PWR0356" H 7450 2700 50  0001 C CNN
+F 1 "GNDD" H 7455 2777 50  0000 C CNN
+F 2 "" H 7450 2950 50  0001 C CNN
+F 3 "" H 7450 2950 50  0001 C CNN
+	1    7450 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDD #PWR0355
+U 1 1 5A73B749
+P 7300 2200
+AR Path="/5A73627F/5A73B749" Ref="#PWR0355"  Part="1" 
+AR Path="/5A74CC7B/5A73B749" Ref="#PWR0378"  Part="1" 
+AR Path="/5A062075/5A73B749" Ref="#PWR0401"  Part="1" 
+AR Path="/5A736B57/5A73B749" Ref="#PWR0424"  Part="1" 
+AR Path="/5A736B5E/5A73B749" Ref="#PWR0447"  Part="1" 
+AR Path="/5A736B65/5A73B749" Ref="#PWR0470"  Part="1" 
+AR Path="/5A7363B1/5A73B749" Ref="#PWR0493"  Part="1" 
+AR Path="/5A7363AA/5A73B749" Ref="#PWR0516"  Part="1" 
+F 0 "#PWR0355" H 7300 1950 50  0001 C CNN
+F 1 "GNDD" H 7305 2027 50  0000 C CNN
+F 2 "" H 7300 2200 50  0001 C CNN
+F 3 "" H 7300 2200 50  0001 C CNN
+	1    7300 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDD #PWR0351
+U 1 1 5A73B750
+P 4500 2800
+AR Path="/5A73627F/5A73B750" Ref="#PWR0351"  Part="1" 
+AR Path="/5A74CC7B/5A73B750" Ref="#PWR0374"  Part="1" 
+AR Path="/5A062075/5A73B750" Ref="#PWR0397"  Part="1" 
+AR Path="/5A736B57/5A73B750" Ref="#PWR0420"  Part="1" 
+AR Path="/5A736B5E/5A73B750" Ref="#PWR0443"  Part="1" 
+AR Path="/5A736B65/5A73B750" Ref="#PWR0466"  Part="1" 
+AR Path="/5A7363B1/5A73B750" Ref="#PWR0489"  Part="1" 
+AR Path="/5A7363AA/5A73B750" Ref="#PWR0512"  Part="1" 
+F 0 "#PWR0351" H 4500 2550 50  0001 C CNN
+F 1 "GNDD" H 4505 2627 50  0000 C CNN
+F 2 "" H 4500 2800 50  0001 C CNN
+F 3 "" H 4500 2800 50  0001 C CNN
+	1    4500 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L my_power:+3V3D #PWR0357
+U 1 1 5A73B755
+P 7700 2950
+AR Path="/5A73627F/5A73B755" Ref="#PWR0357"  Part="1" 
+AR Path="/5A74CC7B/5A73B755" Ref="#PWR0380"  Part="1" 
+AR Path="/5A062075/5A73B755" Ref="#PWR0403"  Part="1" 
+AR Path="/5A736B57/5A73B755" Ref="#PWR0426"  Part="1" 
+AR Path="/5A736B5E/5A73B755" Ref="#PWR0449"  Part="1" 
+AR Path="/5A736B65/5A73B755" Ref="#PWR0472"  Part="1" 
+AR Path="/5A7363B1/5A73B755" Ref="#PWR0495"  Part="1" 
+AR Path="/5A7363AA/5A73B755" Ref="#PWR0518"  Part="1" 
+F 0 "#PWR0357" H 7700 2800 50  0001 C CNN
+F 1 "+3V3D" H 7715 3123 50  0000 C CNN
+F 2 "" H 7700 2950 50  0001 C CNN
+F 3 "" H 7700 2950 50  0001 C CNN
+	1    7700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L my_power:+3V3D #PWR0352
+U 1 1 5A73B759
+P 6750 2950
+AR Path="/5A73627F/5A73B759" Ref="#PWR0352"  Part="1" 
+AR Path="/5A74CC7B/5A73B759" Ref="#PWR0375"  Part="1" 
+AR Path="/5A062075/5A73B759" Ref="#PWR0398"  Part="1" 
+AR Path="/5A736B57/5A73B759" Ref="#PWR0421"  Part="1" 
+AR Path="/5A736B5E/5A73B759" Ref="#PWR0444"  Part="1" 
+AR Path="/5A736B65/5A73B759" Ref="#PWR0467"  Part="1" 
+AR Path="/5A7363B1/5A73B759" Ref="#PWR0490"  Part="1" 
+AR Path="/5A7363AA/5A73B759" Ref="#PWR0513"  Part="1" 
+F 0 "#PWR0352" H 6750 2800 50  0001 C CNN
+F 1 "+3V3D" H 6765 3123 50  0000 C CNN
+F 2 "" H 6750 2950 50  0001 C CNN
+F 3 "" H 6750 2950 50  0001 C CNN
+	1    6750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L my_power:+1V8D #PWR0363
+U 1 1 5A73B761
+P 8900 2950
+AR Path="/5A73627F/5A73B761" Ref="#PWR0363"  Part="1" 
+AR Path="/5A74CC7B/5A73B761" Ref="#PWR0386"  Part="1" 
+AR Path="/5A062075/5A73B761" Ref="#PWR0409"  Part="1" 
+AR Path="/5A736B57/5A73B761" Ref="#PWR0432"  Part="1" 
+AR Path="/5A736B5E/5A73B761" Ref="#PWR0455"  Part="1" 
+AR Path="/5A736B65/5A73B761" Ref="#PWR0478"  Part="1" 
+AR Path="/5A7363B1/5A73B761" Ref="#PWR0501"  Part="1" 
+AR Path="/5A7363AA/5A73B761" Ref="#PWR0524"  Part="1" 
+F 0 "#PWR0363" H 8900 2800 50  0001 C CNN
+F 1 "+1V8D" H 8915 3123 50  0000 C CNN
+F 2 "" H 8900 2950 50  0001 C CNN
+F 3 "" H 8900 2950 50  0001 C CNN
+	1    8900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L my_power:+1V8D #PWR0361
+U 1 1 5A73B767
+P 8550 4650
+AR Path="/5A73627F/5A73B767" Ref="#PWR0361"  Part="1" 
+AR Path="/5A74CC7B/5A73B767" Ref="#PWR0384"  Part="1" 
+AR Path="/5A062075/5A73B767" Ref="#PWR0407"  Part="1" 
+AR Path="/5A736B57/5A73B767" Ref="#PWR0430"  Part="1" 
+AR Path="/5A736B5E/5A73B767" Ref="#PWR0453"  Part="1" 
+AR Path="/5A736B65/5A73B767" Ref="#PWR0476"  Part="1" 
+AR Path="/5A7363B1/5A73B767" Ref="#PWR0499"  Part="1" 
+AR Path="/5A7363AA/5A73B767" Ref="#PWR0522"  Part="1" 
+F 0 "#PWR0361" H 8550 4500 50  0001 C CNN
+F 1 "+1V8D" H 8565 4823 50  0000 C CNN
+F 2 "" H 8550 4650 50  0001 C CNN
+F 3 "" H 8550 4650 50  0001 C CNN
+	1    8550 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4200 3500 4200
+Wire Wire Line
+	6900 2450 6900 2800
+Wire Wire Line
+	7300 2450 7300 2200
+Wire Wire Line
+	7300 2800 7300 2450
+Wire Wire Line
+	6900 2800 6900 3500
+Wire Wire Line
+	9150 3200 9150 3300
+Text Label 5150 3200 2    60   ~ 0
+SD+
+Text Label 4950 2900 0    60   ~ 0
+SD-
+Text Label 5250 3600 2    60   ~ 0
+WS+
+Text Label 5250 3500 2    60   ~ 0
+WS-
+Text Label 5250 3700 2    60   ~ 0
+SCK+
+Text Label 5250 3800 2    60   ~ 0
+SCK-
+Text Notes 1150 2900 0    60   ~ 0
+LED drivers
+Wire Wire Line
+	7700 3200 7700 3100
+Connection ~ 7700 3100
+Wire Wire Line
+	4850 3200 4850 3100
+Wire Wire Line
+	4850 3200 5250 3200
+Wire Wire Line
+	5250 3100 5150 3100
+Wire Wire Line
+	5150 3100 5150 2900
+Wire Wire Line
+	5150 2900 4850 2900
+NoConn ~ 5250 3400
+NoConn ~ 5250 3300
+Wire Wire Line
+	7300 3300 7300 2800
+Wire Wire Line
+	6750 3400 7000 3400
+Wire Wire Line
+	7000 3400 7000 3300
+Wire Wire Line
+	7000 3300 7300 3300
+Wire Wire Line
+	7150 3200 6750 3200
+NoConn ~ 6750 3300
+Wire Wire Line
+	8900 3400 9350 3400
+NoConn ~ 8900 3500
+Wire Wire Line
+	7150 3400 7150 3200
+Wire Wire Line
+	7700 3400 7150 3400
+NoConn ~ 7700 3500
+Text Label 7700 3700 2    60   ~ 0
+WS_3V3
+Text Label 7700 3600 2    60   ~ 0
+SCK_3V3
+$EndSCHEMATC

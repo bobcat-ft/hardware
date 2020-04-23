@@ -1,0 +1,11 @@
+ADP3303ARZ-3.3-RL7,,,,
+,,,,
+Pin,Type,Name,Side,Style
+1,power,OUT,left,
+2,power,OUT,left,
+3,passive,NR,left,
+4,gnd,GND,left,
+5,in,~SD,right,
+6,out,~ERR,right,
+7,power_in,IN,right,
+8,power_in,IN,right,
